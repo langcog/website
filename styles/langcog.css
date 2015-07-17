@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a:link { 
+	color: #900;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #900;
+	text-decoration: none;
+	}
+
+#container {
+	width: 800px;
+    background: #fff;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+#header {
+	height: 125px;
+	padding-top: 1px;
+	padding-left: 10px;
+	text-align: center;
+	background-color:#900;
+	color:#FFF;
+	position: relative;
+}
+
+#text {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#footer{
+	padding-top: 1px;
+	padding-left: 10px;
+	text-align: center;
+	background-color:#900;
+	color:#FFF;
+	position: relative;
+}
+
+#footer a:link, 
+#footer a:visited, 
+#footer a:hover { 
+ color: #FFF; 
+ text-decoration: none; 
+} 
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p{
+	font-size: 14px;
+}
+
+.default{
+	font-size: 14px;
+}
