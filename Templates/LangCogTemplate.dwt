@@ -35,12 +35,12 @@
 
   <div id="header"><h1>Stanford Language and Cognition Lab</h1>
     <ul id="menu" class="MenuBarHorizontal">
-<li><a href="http://langcog.stanford.edu/index.html">Home</a></li>
-<li><a href="http://langcog.stanford.edu/people.html">People</a></li>
-<li><a href="http://langcog.stanford.edu/materials.html">Materials</a></li>
-<li><a href="http://langcog.stanford.edu/cgi-bin/publications.php">Publications</a></li>
-<li><a href="http://langcog.stanford.edu/forparents.html">For Parents</a></li>
-<li><a href="http://langcog.stanford.edu/contact.html">Contact</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="people.html">People</a></li>
+<li><a href="materials.html">Materials</a></li>
+<li><a href="pub_browser/bibtexbrowser.local.php?bib=citations.bib&all">Publications</a></li>
+<li><a href="forparents.html">For Parents</a></li>
+<li><a href="contact.html">Contact</a></li>
     </ul></div>
   
   
