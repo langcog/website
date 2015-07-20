@@ -92,7 +92,7 @@ function bibtexbrowser_configure($key, $value) {
 // can be @define('ORDER_FUNCTION','compare_bib_entry_by_title');
 // can be @define('ORDER_FUNCTION','compare_bib_entry_by_bibtex_order');
 @define('ORDER_FUNCTION','compare_bib_entry_by_year');
-@define('ORDER_FUNCTION_FINE','compare_bib_entry_by_month');
+@define('ORDER_FUNCTION_FINE','compare_bib_entry_by_name');
 
 // only displaying the n newest entries
 @define('BIBTEXBROWSER_NEWEST',5);
@@ -147,7 +147,7 @@ function bibtexbrowser_configure($key, $value) {
 @define('Q_YEAR_PAGE', 'year_page');
 @define('Q_YEAR_INPRESS', 'in press');
 @define('Q_YEAR_ACCEPTED', 'accepted');
-@define('Q_YEAR_SUBMITTED', 'submitted');
+@define('Q_YEAR_SUBMITTED', 'under review');
 @define('Q_FILE', 'bib');
 @define('Q_AUTHOR', 'author');
 @define('Q_AUTHOR_PAGE', 'author_page');
@@ -181,10 +181,10 @@ function bibtexbrowser_configure($key, $value) {
 // define sort order for special values in 'year' field
 // highest number is sorted first
 // don't exceed 0 though, since the values are added to PHP_INT_MAX
-@define('ORDER_YEAR_INPRESS', -0);
-@define('ORDER_YEAR_ACCEPTED', -1);
-@define('ORDER_YEAR_SUBMITTED', -2);
-@define('ORDER_YEAR_OTHERNONINT', -3);
+@define('ORDER_YEAR_INPRESS', -3);
+@define('ORDER_YEAR_ACCEPTED', -2);
+@define('ORDER_YEAR_SUBMITTED', -1);
+@define('ORDER_YEAR_OTHERNONINT', -0);
 
 
 // in embedded mode, we still need a URL for displaying bibtex entries alone
@@ -1324,7 +1324,7 @@ class BibEntry {
   */
   function formatAuthorInitials($author){
       list($firstname, $lastname) = splitFullName($author);
-      if ($firstname!='') return $lastname.', '.trim(preg_replace("/(\p{Lu})\w*[- ]*/S","$1. ", $firstname));
+      if ($firstname!='') return $lastname.', '.trim(preg_replace("/(\p{L})\w*[- ]*/S","$1. ", $firstname));
       else return $lastname;
   }
 
@@ -1346,7 +1346,13 @@ class BibEntry {
   /** Adds to getFormattedAuthors() the home page links and returns a string (not an array). Is configured with BIBTEXBROWSER_AUTHOR_LINKS and USE_COMMA_AS_NAME_SEPARATOR_IN_OUTPUT.
   */
   function getFormattedAuthorsImproved() {
-    $array_authors = $this->getFormattedAuthors();
+    // this was buggy - fixed it not to use getFormattedAuthors as it broke the links
+    $array_authors = array();
+    foreach ($this->getRawAuthors() as $author) {
+      $array_authors[]=$this->formatAuthor($author);
+    }
+
+    // $array_authors = $this->getFormattedAuthors();
 
     if (BIBTEXBROWSER_AUTHOR_LINKS=='homepage') {
       foreach ($array_authors as $k => $author) {
@@ -1435,7 +1441,7 @@ class BibEntry {
     }
     if (USE_COMMA_AS_NAME_SEPARATOR_IN_OUTPUT) {$sep = '; ';} else {$sep = ', ';}
     if (FORCE_NAMELIST_SEPARATOR !== '') {$sep = FORCE_NAMELIST_SEPARATOR;}
-    return implode($sep, $editors).', '.(count($editors)>1?'eds.':'ed.');
+    return implode($sep, $editors).', '.(count($editors)>1?'Eds.':'Ed.');
   }
 
   /** Returns the year of this entry? */
@@ -2022,7 +2028,8 @@ function DefaultBibliographyStyle(&$bibentry) {
   $title = $title.'.';
 
   // year
-  $year = '(<span itemprop="datePublished">'.$bibentry->getField('year').'</span>). ';
+  $yr = $bibentry->getField('year'); 
+  $year = '(<span itemprop="datePublished">'.$yr.'</span>). ';
 
   // author
   if ($bibentry->hasField('author')) {
@@ -2044,48 +2051,18 @@ function DefaultBibliographyStyle(&$bibentry) {
   if ($type=="article") {
       $booktitle = __('').' '.'<span itemprop="isPartOf">'.$bibentry->getField("journal").'</span>';}
 
-  // //// we may add the editor names to the booktitle
-  // $editor='';
-  // if ($bibentry->hasField(EDITOR)) {
-  //   $editor = $bibentry->getFormattedEditors();
-  // }
-  // if ($editor!='') $booktitle .=' ('.$editor.')';
-  // // end editor section
+  //// we may add the editor names to the booktitle
+  $editor='';
+  if ($bibentry->hasField(EDITOR)) {
+    $editor = $bibentry->getFormattedEditors();
+  }
+  if ($editor!='') $booktitle .=' ('.$editor.')';
+  // end editor section
 
   // is the booktitle available
-  if ($booktitle!='') {
+  if ($booktitle!='' & $yr!='submitted' & $yr!='under review') {
     $entry[] = '<span class="bibbooktitle">'.$booktitle.'</span>';
   }
-
-
-  // $publisher='';
-  // if ($type=="phdthesis") {
-  //     $publisher = __('PhD thesis').', '.$bibentry->getField(SCHOOL);
-  // }
-  // if ($type=="mastersthesis") {
-  //     $publisher = __('Master\'s thesis').', '.$bibentry->getField(SCHOOL);
-  // }
-  // if ($type=="bachelorsthesis") {
-  //     $publisher = __('Bachelor\'s thesis').', '.$bibentry->getField(SCHOOL);
-  // }
-  // if ($type=="techreport") {
-  //     $publisher = __('Technical report');
-  //     if ($bibentry->hasField("number")) {
-  //         $publisher .= ' '.$bibentry->getField("number");
-  //     }
-  //     $publisher .= ', '.$bibentry->getField("institution");
-  // }
-
-  // if ($type=="misc") {
-  //     $publisher = $bibentry->getField('howpublished');
-  // }
-
-  // // if ($bibentry->hasField("publisher")) {
-  // //   $publisher = $bibentry->getField("publisher");
-  // // }
-
-  // if ($publisher!='') $entry[] = '<span class="bibpublisher">'.$publisher.'</span>';
-
 
   if ($bibentry->hasField('volume')) $entry[] =  __('<span class="volume">').', '.$bibentry->getField("volume").'</span>';
   if ($bibentry->hasField('pages')) $entry[] =  __('').', '.$bibentry->getField("pages");
