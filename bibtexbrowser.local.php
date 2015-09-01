@@ -10,10 +10,10 @@
 
 
   <!-- Bootstrap -->
-  <link href="../WWW/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="../WWW/css/jumbotron-narrow.css" rel="stylesheet">
+  <link href="../css/jumbotron-narrow.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,12 +39,12 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="../WWW/index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="active"><a href="bibtexbrowser.local.php?bib=citations.bib&all">Publications</a></li>
-            <li><a href="../WWW/people.html">People</a></li>
-            <li><a href="../WWW/materials.html">Materials</a></li>
-            <li><a href="../WWW/forparents.html">For Parents</a></li>
-            <li><a href="../WWW/contact.html">Contact</a></li>             
+            <li><a href="../people.html">People</a></li>
+            <li><a href="../materials.html">Materials</a></li>
+            <li><a href="../forparents.html">For Parents</a></li>
+            <li><a href="../contact.html">Contact</a></li>             
           </ul>
         </div><!-- /.collapse -->
       </div><!-- /.container-fluid -->
@@ -4309,7 +4309,7 @@ $main->main();
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="../WWW/js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
