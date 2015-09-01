@@ -15,6 +15,9 @@
   <!-- Custom styles for this template -->
   <link href="../css/jumbotron-narrow.css" rel="stylesheet">
 
+  <!-- bibtexbrowser styles -->
+  <link href="../css/bibtexbrowser.css" rel="stylesheet">
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -121,7 +124,7 @@ function bibtexbrowser_configure($key, $value) {
 @define('BIBTEXBROWSER_DEFAULT_DISPLAY','SimpleDisplay');
 
 // the default template
-@define('BIBTEXBROWSER_DEFAULT_TEMPLATE','HTMLTemplate');
+@define('BIBTEXBROWSER_DEFAULT_TEMPLATE','NoWrapper');
 
 // the target frame of menu links
 @define('BIBTEXBROWSER_MENU_TARGET','main'); // might be define('BIBTEXBROWSER_MENU_TARGET','_self'); in bibtexbrowser.local.php
