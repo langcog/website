@@ -3670,8 +3670,8 @@ echo '<style type="text/css"><!--  '."\n";
 
 if (method_exists($content, 'getCSS')) {
   echo $content->getCSS();
-} else if (is_readable(dirname(__FILE__).'/css/bibtexbrowser.css')) {
-  readfile(dirname(__FILE__).'/css/bibtexbrowser.css');
+} else if (is_readable(dirname(__FILE__).'../css/bibtexbrowser.css')) {
+  readfile(dirname(__FILE__).'../css/bibtexbrowser.css');
 }
 else {  bibtexbrowserDefaultCSS(); }
 
