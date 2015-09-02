@@ -55,7 +55,8 @@
     </nav>
 
     <div class="jumbotron nobkg">
-      <h3>Publications<h3>
+      <h3>Publications</h3>
+      <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?type=article&bib=citations.bib">[refereed journal articles only]</a>
 <?php /* bibtexbrowser: publication lists with bibtex and PHP
 <!--this is version vef0563951ad96fad3696518df89f88324aaf46ff -->
 URL: http://www.monperrus.net/martin/bibtexbrowser/
@@ -2023,8 +2024,8 @@ function compare_bib_entry_by_month($a, $b)
 }
 
 /** is the default sectioning for AcademicDisplay (books, articles, proceedings, etc. ) */
-function DefaultBibliographySections() {
-return
+function Default() {
+returnBibliographySections
   array(
   // Books
     array(
