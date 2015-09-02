@@ -55,6 +55,7 @@
     </nav>
 
     <div class="jumbotron nobkg">
+      <h3>Publications<h3>
 <?php /* bibtexbrowser: publication lists with bibtex and PHP
 <!--this is version vef0563951ad96fad3696518df89f88324aaf46ff -->
 URL: http://www.monperrus.net/martin/bibtexbrowser/
