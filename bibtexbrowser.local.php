@@ -57,7 +57,9 @@
     <div class="jumbotron nobkg">
       <h3>Publications</h3>
       <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?all&bib=citations.bib">[all publications]</a>       
-      <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?type=article&bib=citations.bib">[refereed journal articles only]</a><br>
+      <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?type=article&bib=citations.bib">[refereed journal articles only]</a>
+      <br>
+      <br>
 
 <?php /* bibtexbrowser: publication lists with bibtex and PHP
 <!--this is version vef0563951ad96fad3696518df89f88324aaf46ff -->
