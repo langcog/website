@@ -2134,6 +2134,10 @@ function DefaultBibliographyStyle(&$bibentry) {
 
   $result = implode("",$entry).'.';
 
+  if ($yr=="under review" | $yr=="submitted") {
+    $result = rtrim($result, '.');
+  }
+
   // some comments (e.g. acceptance rate)?
   if ($bibentry->hasField('comment')) {
       $result .=  " <span class=\"bibcomment\">(".$bibentry->getField("comment").")</span>";
