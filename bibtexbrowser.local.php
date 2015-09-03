@@ -2135,7 +2135,7 @@ function DefaultBibliographyStyle(&$bibentry) {
   $result = implode("",$entry).'.';
 
   if ($yr=="under review" | $yr=="submitted") {
-    $result = rtrim($result, '.');
+    $result = preg_replace("/\.$/","",$result);
   }
 
   // some comments (e.g. acceptance rate)?
