@@ -250,7 +250,7 @@ function bibtexbrowser_configure($key, $value) {
 @define('ORDER_YEAR_ACCEPTED', -2);
 @define('ORDER_YEAR_SUBMITTED', -1);
 @define('ORDER_YEAR_OTHERNONINT', -0);
-@define('ORDER_YEAR_UNPUBLISHED', -2050);
+@define('ORDER_YEAR_UNPUBLISHED', 1999);
 
 // in embedded mode, we still need a URL for displaying bibtex entries alone
 // this is usually resolved to bibtexbrowser.php
@@ -1914,7 +1914,7 @@ function compare_bib_entry_by_year($a, $b)
         $yearA = PHP_INT_MAX + ORDER_YEAR_SUBMITTED;
   break;
       case Q_YEAR_UNPUBLISHED:
-        $yearA = PHP_INT_MAX + ORDER_YEAR_UNPUBLISHED;
+        $yearA = ORDER_YEAR_UNPUBLISHED;
 	break;
       default:
         $yearA = PHP_INT_MAX + ORDER_YEAR_OTHERNONINT;
@@ -1933,7 +1933,7 @@ function compare_bib_entry_by_year($a, $b)
         $yearB = PHP_INT_MAX + ORDER_YEAR_SUBMITTED;
   break;
       case Q_YEAR_UNPUBLISHED:
-        $yearB = PHP_INT_MAX + ORDER_YEAR_UNPUBLISHED;
+        $yearB = ORDER_YEAR_UNPUBLISHED;
 
 	break;
       default:
