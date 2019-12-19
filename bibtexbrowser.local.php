@@ -25,7 +25,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-    
+
 <body>
   <div class="container">
 
@@ -37,8 +37,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>        
-          <a class="navbar-brand" href="http://langcog.stanford.edu/index.html">Language and Cognition Lab</a>          
+          </button>
+          <a class="navbar-brand" href="http://langcog.stanford.edu/index.html">Language and Cognition Lab</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,7 +49,7 @@
             <li><a href="../materials.html">Materials</a></li>
             <li><a href="../forparents.html">Parents</a></li>
             <li><a href="../joinus.html">Join</a></li>
-            <li><a href="../contact.html">Contact</a></li>             
+            <li><a href="../contact.html">Contact</a></li>
           </ul>
         </div><!-- /.collapse -->
       </div><!-- /.container-fluid -->
@@ -57,7 +57,7 @@
 
     <div class="jumbotron nobkg">
       <h3>Publications</h3>
-      <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?all&bib=citations.bib">[all publications]</a>       
+      <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?all&bib=citations.bib">[all publications]</a>
       <a href="http://langcog.stanford.edu/cgi-bin/bibtexbrowser.local.php?type=article&bib=citations.bib">[refereed journal articles only]</a>
       <br>
       <br>
@@ -212,6 +212,7 @@ function bibtexbrowser_configure($key, $value) {
 @define('Q_YEAR_INPRESS', 'in press');
 @define('Q_YEAR_ACCEPTED', 'accepted');
 @define('Q_YEAR_SUBMITTED', 'under review');
+@define('Q_YEAR_UNPUBLISHED', 'unpublished manuscript');
 @define('Q_FILE', 'bib');
 @define('Q_AUTHOR', 'author');
 @define('Q_AUTHOR_PAGE', 'author_page');
@@ -249,7 +250,7 @@ function bibtexbrowser_configure($key, $value) {
 @define('ORDER_YEAR_ACCEPTED', -2);
 @define('ORDER_YEAR_SUBMITTED', -1);
 @define('ORDER_YEAR_OTHERNONINT', -0);
-
+@define('ORDER_YEAR_UNPUBLISHED', -0);
 
 // in embedded mode, we still need a URL for displaying bibtex entries alone
 // this is usually resolved to bibtexbrowser.php
@@ -1359,7 +1360,7 @@ class BibEntry {
       return $this->formatAuthorCommaSeparated($author);
     } else if (USE_INITIALS_FOR_NAMES) {
       return $this->formatAuthorInitials($author);
-    }	
+    }
 
     else return $this->formatAuthorCanonical($author);
   }
@@ -2093,7 +2094,7 @@ function DefaultBibliographyStyle(&$bibentry) {
   $title = $title.'.';
 
   // year
-  $yr = $bibentry->getField('year'); 
+  $yr = $bibentry->getField('year');
   $year = '(<span itemprop="datePublished">'.$yr.'</span>). ';
 
   // author
@@ -3383,6 +3384,9 @@ class BibDataBase {
         case Q_YEAR_SUBMITTED:
           $key = PHP_INT_MAX + ORDER_YEAR_SUBMITTED;
           break;
+        case Q_YEAR_UNPUBLISHED:
+            $key = ORDER_YEAR_UNPUBLISHED;
+            break;
         default:
           $key = PHP_INT_MAX + ORDER_YEAR_OTHERNONINT;
       }
@@ -4315,7 +4319,7 @@ $main = new $class();
 $main->main();
 ?>
 
-    </div>      
+    </div>
 
     <footer class="footer">
       <p><a href="http://www-psych.stanford.edu/~babylab/">Center for Infant Studies Home</a>  -  <a href="http://psychology.stanford.edu/">Stanford Psychology Home</a> - <a href="http://stanford.edu">Stanford University</a></p>
@@ -4338,4 +4342,3 @@ $main->main();
   </script>
 </body>
 </html>
-
