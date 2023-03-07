@@ -1,0 +1,65 @@
+---
+---
+
+{% if entry.website %}
+	<a href="{{entry.website}}" style="font-weight: bold;">{{entry.title}}.</a>
+{% else %}
+	<span style="font-weight: bold;">{{entry.title}}</span>.
+{% endif %}
+
+<span class="minilinks">
+	{% if entry.abstract %}
+		<a onclick="toggle('{{entry.key}}_abstract')">[Abstract]</a>
+	{% endif %}
+	
+	{% if entry.website %}
+		<a href="{{entry.website}}" target="_blank">{% if entry.pdf %}[Link]{% else %}[PDF]{% endif %}</a>
+	{% endif %}
+
+	{% if entry.repository %}
+		<a href="{{entry.repository}}" target="_blank">[Repository]</a>
+	{% endif %}
+
+	{% if entry.osf %}
+		<a href="{{entry.osf}}" target="_blank">[OSF]</a>
+	{% endif %}
+
+	{% if entry.doi %}
+		<a href="{{entry.doi}}" target="_blank">[DOI]</a>
+	{% endif %}
+
+	{% if entry.pdf %}
+		<a href="{{entry.pdf}}" target="_blank">[PDF]</a>
+	{% endif %}
+
+	{% if entry.preprint %}
+		<a href="{{entry.preprint}}" target="_blank">[PrePrint]</a>
+	{% endif %}
+
+	{% if entry.erratum %}
+		<a href="{{entry.erratum}}" target="_blank">[Erratum]</a>
+	{% endif %}
+	
+	<a onclick="toggle('{{entry.key}}_bibtex')">[BibTeX]</a>
+</span>
+<br>
+
+
+{{reference}} <!-- this is just author information -->
+
+{% if entry.abstract %}
+	<p class="abstract" id="{{entry.key}}_abstract"> <b>Abstract:</b> {{ entry.abstract }}</p>
+{% endif %}
+	<p class="bibtex" id="{{entry.key}}_bibtex"> <b>BibTeX:</b> {{ entry.bibtex }}</p>
+
+
+<script>
+function toggle(key) {
+	var element = document.getElementById(key)
+	if (element.style.display == 'block') {
+		element.style.display = 'none'
+	} else {
+		element.style.display = 'block'
+	}
+}
+</script>

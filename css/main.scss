@@ -1,0 +1,220 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Lato, Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: normal;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.25;
+
+$spacing-unit:     20px;
+
+$text-color:       #3B3B3B;
+$background-color: #ffffff;
+$brand-color:      #39e22a;
+
+$grey-color:       #ffffff;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$link-color:		#495eb9;
+$active-link-color:	#8699eb;
+$navbar-color:		#ffffff;
+
+$on-palm:          1079px;
+$on-laptop:        1080px;
+
+$fill-width:		85%;
+
+$logo-height:		65px;
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "people"
+;
+
+.join-img {
+	float: left;
+	padding-right: $spacing-unit;
+	width: 40%;
+}
+
+.blurb {
+    max-width: 750px;
+    margin: auto;
+}
+
+.blurb p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*p code {
+    color: #D14;
+    background-color: inherit;
+    font-size: 12px;
+    border: none;
+}*/
+/*li code {
+    color: #D14;
+    background-color: inherit;
+    font-size: 12px;
+    border: none;
+}*/
+
+h1 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: normal;
+    // font-size: 20px;
+    font-weight: bold;
+    // color: lightgrey;
+    font-size: $base-font-size;
+}
+
+a {
+    color: rgb(99, 112, 184);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.journal {
+    font-style: italic;
+}
+
+.bibliography li {
+    margin-bottom: $spacing-unit/3;
+}
+
+.left {
+    float: left;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+
+.right {
+    float: right;
+    margin-left: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+
+.slick-dots {
+    margin-left: 0px;
+}
+
+.main_carousel {
+    padding: 0px 0px 0px 0px;
+    width: 75%;
+    @include media-query($on-palm) {
+        width: 85%;
+    }
+    @media screen and (min-width: 1905px) {
+        width: 972px;
+    }
+    margin: auto auto;
+
+    img, p {
+        margin: auto auto;
+    }
+
+    p {
+        margin: auto auto;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        color: #fff;
+        background-color:  rgba(0,0,0,0.75);
+        z-index: 10;
+	   opacity: 100%;
+    }
+
+    button {
+        width: 60px;
+        top: 50%;
+        color: #fff;
+        opacity: 100%;
+        &.slick-next {
+            right: 0px;
+            left: auto;
+            // background-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+            // &:hover {
+            //     background-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.75) 100%);
+            // }
+        }
+        &.slick-prev {
+            left: 0px;
+            right: auto;
+            // background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+            // &:hover {
+            //     background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.75) 100%);
+            // }
+        }
+    }
+}
+
+/*.slick-dots {
+    @media screen and (max-width: 469px) {
+        position: relative !important;
+        bottom: 0px !important;
+    }
+}*/
+
+
+button::-moz-focus-inner { outline: 0; border: 0; zoom: normal; }
+
+.abstract {
+    margin-left: $spacing-unit * 2;
+    margin-right: $spacing-unit * 2;
+    display: none;
+    font-size: $small-font-size;
+}
+.bibtex {
+    margin-left: $spacing-unit * 2;
+    margin-right: $spacing-unit * 2;
+    display: none;
+    font-size: $small-font-size;
+}
+
+.minilinks {
+    font-size: $base-font-size * 0.7;
+
+    a {
+        background-color: #eee;
+    }
+}
+
+// twitter
+.timeline-header, .timeline-footer
+{
+          display:none ;
+}

@@ -1,0 +1,129 @@
+---
+layout: default
+title: People
+permalink: /people
+---
+
+
+<div class="peoplelayout">
+<!-- <br>
+<br> -->
+<!-- <h1>Lab members</h1> -->
+
+    <div class="main_carousel">
+        {% for image in site.data.carousel %}
+        <div class="carousel_element">
+        <img src="{{site.url}}{{site.baseurl}}/images/carousel/{{image.image}}" width="100%" alt="{% if image.alt %}{{image.alt}}{% else %}{{image.label}}{% endif %}"/>
+        <p>{{image.label}}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        $(".main_carousel").slick({
+        dots: true,
+        speed: 1000,
+        adaptiveHeight: true,
+        slidesToShow: 1,
+        //fade: true,
+        responsive: [
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+            }
+        ]
+        });
+    </script>
+<br>
+{% for role in site.data.langcoglab %}
+    {% if role.role == "Lab Alums" %}
+        <br>
+        <br>
+        <h1>{{role.role}}</h1>
+        <br>
+        {% for person in role.people %}
+        <p class="was">
+            {% if person.webpage %}
+                <a class="subtle_link" id="Alumni" name="{{person.name}}"  href="{{person.webpage}}">{{person.name}}</a>
+            {% else %}
+                <a class="subtle_link" id="Alumni" name="{{person.name}}">{{person.name}}</a>
+            {% endif %} ({{person.was}}){% if person.now %} -- {{person.now}} {% endif %}
+        </p>
+        {% endfor %}
+    {% elsif role.role == "Honors Students" %}
+        <br>
+        <h1>{{role.role}}</h1>
+        <br>
+        {% for person in role.people %}
+        <p class="was">
+            {% if person.webpage %}
+                <a class="subtle_link" id="Honors" name="{{person.name}}"  href="{{person.webpage}}">{{person.name}}</a>
+            {% else %}
+                <a class="subtle_link" id="Honors" name="{{person.name}}">{{person.name}}</a>
+            {% endif %} ({{person.year}}) -- {{person.program}}
+        </p>
+        {% endfor %}
+    {% elsif role.role == "Summer Interns" %}
+        <br>
+        <h1>{{role.role}}</h1>
+        <br>
+        {% for person in role.people %}
+        <p class="was">
+            {% if person.webpage %}
+                <a class="subtle_link" id="Summer" name="{{person.name}}"  href="{{person.webpage}}">{{person.name}}</a>
+            {% else %}
+                <a class="subtle_link" id="Summer" name="{{person.name}}">{{person.name}}</a>
+            {% endif %} ({{person.year}}) -- {{person.program}}
+        </p>
+        {% endfor %}
+    {% else %}
+        <h1>{{role.role}}</h1>
+        <br>
+        {% for person in role.people %}
+            <div class="member">
+                {% if person.img %}
+                    <img src="{{site.url}}{{site.baseurl}}/images/members/{{person.img}}" alt="{{person.name}}"></img>
+                {% endif %}
+                {% if person.baby %}
+                <img src="{{site.url}}{{site.baseurl}}/images/members/{{person.baby}}" alt="{{person.name}} Baby"></img>
+                {% endif %}
+                <div class="text">
+                    <nobr>
+                    {% if person.webpage %}
+                        <b><a class="subtle_link" style="font-size: 20px" id="{{role.role}}" name="{{person.name}}"  href="{{person.webpage}}">{{person.name}}</a></b>
+                    {% else %}
+                        <b><span class="name" style="font-size:20px" id="{{role.role}}" name="{{person.name}}">{{person.name}}</span></b>
+                    {% endif %}
+                    {% if person.blog %}
+                    (<a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.blog}}">Blog</a>
+                    {% if person.twitter %}, <a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.twitter}}">Twitter</a>{% endif %})
+                    {% elsif person.twitter %}
+                    (<a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.twitter}}">Twitter</a>)
+                    {% endif %}
+                    <!-- <h3>{{role.role}}</h3> -->
+                    {% if person.was %}
+                        <p class="was">({{person.was}})
+                        {% if person.now %} -- {{person.now}} {% endif %}
+                        </p>
+                    {% endif %}
+                    </nobr>
+                    <!-- {% if person.was %}
+                        <p class="was">Formerly {{person.was}}</br>
+                        {% if person.now %} {{person.now}} {% endif %}
+                        </p>
+                    {% endif %} -->
+                    {% for paragraph in person.bio %}
+                        <div style="text-align: left; font-size: 15px"><p>{{paragraph}}</p></div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+</div>
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include home_head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div style ="text-align:center">
+        <h1 style="text-align: center; font-size: 200%;">Welcome to the Language & Cognition Lab at Stanford!</h1>
+        <img src="{{site.url}}{{site.baseurl}}/images/lab_logo_stanford.png" alt="Lab Logo"></img>
+        <div class="blurb"><p>How do we go from being speechless infants to toddlers who can talk and understand language? Research in the Language and Cognition lab uses computational models and experiments with infants, children, and adults to try and understand human language acquisition and its relationship to other aspects of cognition, including social interaction and conceptual structure.</p></div>
+        {{ content }}
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center">
+    {% include footer.html %}
+    </div>
+  </body>
+
+</html>

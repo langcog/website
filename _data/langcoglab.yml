@@ -1,0 +1,363 @@
+- role: Principal Investigator
+  people:
+    - name: Mike Frank
+      img: mike.jpg
+      baby: mike_baby.jpg
+      webpage: http://www.stanford.edu/~mcfrank
+      blog: http://babieslearninglanguage.blogspot.com/
+      twitter: http://twitter.com/mcxfrank
+      bio: 
+        - >
+          Mike did his undergraduate degree at Stanford in Symbolic Systems and his PhD work at MIT. 
+          He is broadly interested in the relationship between language and cognition, 
+          especially as it relates to children's early language development.
+- role: Postdocs
+  people:
+    - name: Bria Long
+      img: bria.jpg
+      baby: bria_baby.jpeg
+      webpage: https://www.brialong.com/
+      bio:
+        - >
+          Bria did her undergraduate work at Stanford and is happy to be back on campus. 
+          She spent two years at École Normale Supérieure in France before doing her graduate 
+          work in vision science at Harvard University. Her postdoctoral work focuses on the 
+          development of visual concepts. For example, how do children learn what is —- and what 
+          isn't —- a cup? How do children's visual concepts change across development?
+    - name: Kat Adams Shannon
+      img: kat.jpg
+      baby: kat_baby.jpg
+      webpage: https://www.katadams.com/
+      bio:
+        - >
+         Kat completed her PhD in developmental psychology at NYU in the Steinhardt School of Culture, 
+         Education, and Human Development. She broadly studies how young children adapt their attention
+         and learning behaviors to best match different early environments, with particular focus on 
+         understanding variability and strengths in contexts of early adversity. A key aim of her 
+         research is to create and collaborate on innovative uses of technology and statistical 
+         methods to support education and developmental science.
+- role: Graduate Students
+  people:
+    - name: Rondeline Williams
+      img: rondeline.png
+      baby: rondeline_baby.png
+      bio:
+        - >
+          Rondeline received her B.A. in Psychology from Cornell University in 2017 before completing
+          an NIH-funded research project at The Ohio State University. She is interested in the impact 
+          of auditory noise on young children's processing efficiency and language development.
+    
+    - name: Anjie Cao
+      img: anjie.jpg
+      baby: anjie_baby.jpeg
+      webpage: https://anjiecao.github.io/
+      twitter: https://twitter.com/anjie_cao
+      bio:
+        - >
+          Anjie received her B.S. in Cognitive Science with an additional major in Philosophy from 
+          Carnegie Mellon University in 2020. She is interested in using experimental methods and 
+          computational modeling to understand human information-seeking behavior.
+
+    - name: Veronica Boyce
+      img: veronica.jpg
+      baby: veronica_baby.jpg
+      webpage: https://vboyce.github.io/
+      bio:
+        - >
+          Veronica received her BS in Brain and Cognitive Sciences from MIT in 2019 where she did work 
+          on incremental language processing. She is interested in adaptation and convention formation in conversation.
+
+    - name: Alvin Tan
+      img: alvin.jpg
+      baby: alvin_baby.jpg
+      bio:
+        - >
+          Alvin received a BA in Psychology and Linguistics from Oxford in 2020, and an MS in Symbolic Systems from Stanford 
+          in 2022. He is interested in language learning in young children.
+
+    - name: Samah Abdelrahim
+      img: samah.png
+      baby: samah_baby.png
+      bio:
+        - >
+         Received a BSC in electrical engineering from University of Khartoum, and then received a master degree 
+         in computer science from Arizona state university and a master degree in cognitive science from Columbia 
+         university. I have been interested in the study of cognitive development and language development in particular.
+         I am intrigued by the intersection between language and cognition. I am also interested in the cross-cultural 
+         approaches of conducting research in cognitive development.
+
+- role: Research Staff
+  people:
+    - name: Bobby Sparks
+      img: bobby.jpg
+      baby: bobby_baby.png
+      twitter: https://twitter.com/rbzsparks
+      bio:
+        - >
+          Bobby is the current lab manager. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
+          from Stanford University where he was a research assistant in the Social Learning Lab. His prior work 
+          concetrated in social-cognitive developement and epistemic reasoning. He is broadly interested in human 
+          connection, how people form and are impacted by close-relationships, and how family-system distress affects cognition.
+
+- role: Lab Alums
+  people:
+    - name: Georgia Loukatour
+      was: Research Fellow
+      now: 
+    - name: Eva Portelance
+      was: Graduate Student
+      now: Postdoctoral Scholar, McGill University
+    - name: Jessica Mankewitz
+      was: Lab Manager
+      now: Graduate Student, UW Madison
+    - name: Sama Radwan
+      was: Research Assistant
+      now: 
+    - name: George Kachergis
+      was: Research Scientist
+      now: SkillPrint
+    - name: Angeline Tsui
+      was: Postdoctoral Fellow
+      now: Research Data Scientist, Huawei Technologies
+    - name: Yang Wu 
+      was: Postdoctoral Fellow
+      now: Assistant Professor, University of Toronto
+    - name: Alex Carstensen 
+      was: Postdoctoral Fellow
+      now: Postdoctoral Fellow, UC San Diego
+    - name: Joseph Outa
+      was: Research Coordinator 
+      now: 
+    - name: Charles Murray
+      was: Research Assistant
+      now: 
+    - name: Megan Merrick
+      was: Research Assistant
+      now: Graduate Student, Indiana University
+    - name: Hang Jiang
+      was: Graduate Student
+      now: Graduate Student, MIT
+    - name: Ben Peloquin
+      was: Graduate Student
+      now: Data Scientist, Apple
+    - name: Pooja Paul 
+      was: Postdoctoral Scholar
+      now: 
+    - name: Benny deMayo
+      was: Lab Manager
+      now: Graduate Student, Princeton University
+    - name: Vivian Zhang 
+      was: Research Assistant
+      now: Graduate Student, Cornell University
+    - name: Erica Yoon
+      was: Graduate Student
+      now: Teaching Coordinator for Symbolic Systems Program, Stanford University
+    - name: Judith Fan
+      was: Postdoctoral Scholar
+      now: Assistant Professor, UC San Diego
+    - name: Manuel Bohn
+      was: Postdoctoral Scholar
+      now: Postdoctoral Scholar, Leipzig Research Center for Early Childhood Development
+    - name: Abdellah Fourtassi 
+      was: Postdoctoral Scholar
+      now: Assistant Professor, Aix-Marseille University
+    - name: Kyle MacDonald
+      was: Graduate Student
+      now: Postdoctoral Scholar, UCLA
+    - name: Tom Hardwicke
+      was: Postdoctoral Scholar
+      now: Postdoctoral Scholar, Meta-Research Innovation Center, Charité – Universitätsmedizin Berlin
+    - name: Alessandro Sanchez
+      was: Research Assistant
+      now: Software Engineer, Atomwise
+    - name: Emily Hembacher
+      was: Postdoctoral Scholar
+      now: Data Scientist, Nextdoor
+    - name: Danielle Kellier
+      was: Lab Manager
+      now: Medical Student, University of Pennsylvania
+    - name: Gabe Doyle 
+      was: Postdoctoral Scholar
+      now: Assistant Professor, San Diego State University
+    - name: Veronica Cristiano
+      was: Research Assistant
+      now: Graduate Student, Gallaudet University
+    - name: Molly Lewis
+      was: Graduate Student
+      now: Research Faculty, CMU
+    - name: Dan Yurovsky
+      was: Postdoctoral Fellow
+      now: Assistant Professor, CMU
+    - name: Rose Schneider 
+      was: Lab Manager
+      now: UX Researcher, Blink
+    - name: Mika Braginsky
+      was: Research Assistant
+      now: Postdoctoral Scholar, Stanford University
+    - name: Ann Nordmeyer
+      was: Graduate Student
+      now: Assistant Professor, Southern New Hampshire University
+    - name: Sarah James
+      was: Research Assistant
+      now:
+    - name: Andrew Weaver
+      was: Research Assistant
+      now:
+    - name: Alexandra Horowitz
+      was: Graduate Student
+      now: UI Researcher, Facebook
+    - name: Ally Kraus
+      was: Lab Manager
+      now: Analyst, Education Elements
+    - name: Janelle Klaas
+      was: Research Student
+      now:
+    - name: Theresa Hennings
+      was: Research Assistant
+      now: Graduate Student, University of Washington
+    - name: Stephan Meylan
+      was: Research Assistant
+      now: Postdoctoral Fellow, Duke University and MIT
+    - name: Chigusa Kurumada
+      was: Graduate Student
+      now: Assistant Professor, University of Rochester
+    - name: Marisa Casillas
+      was: Graduate Student
+      now: Assistant Professor, University of Chicago
+    - name: Alex Stiller-Shulman
+      was: Master's Student
+      now: Assistant Professor, San Diego Miramar College
+- role: Honors Students
+  people:
+    - name: Khuyen Le
+      year: 2021
+      program: Symbolic Systems
+    - name: Gloria Yi
+      year: 2021
+      program: Symbolic Systems
+    - name: Hannah Marshall
+      year: 2021
+      program: Psychology
+    - name: Claire Baker
+      year: 2021 
+      program: Human Biology
+    - name: Elizabeth Swanson
+      year: 2021
+      program: Human Biology
+    - name: Isabella Duan
+      year: 2021
+      program: Human Biology
+    - name: Tania Dhaliwal
+      year: 2020
+      program: Symbolic Systems
+    - name: Sophie Regan
+      year: 2020
+      program: Symbolic Systems
+    - name: Benjamin deMayo
+      year: 2018
+      program: Psychology
+    - name: Tamara Mekler
+      year: 2017
+      program: Human Biology
+    - name: Allison Dods
+      year: 2016
+      program: Symbolic Systems
+    - name: Sarah Lucy Case
+      year: 2015
+      program: Human Biology
+    - name: Rachel Chung
+      year: 2015
+      program: Science, Technology, and Society
+    - name: Nicholas Moores
+      year: 2015
+      program: Linguistics
+    - name: Elise Sugarman
+      year: 2014
+      program: Symbolic Systems
+    - name: Laura Soriano
+      year: 2014
+      program: Human Biology
+    - name: Kaia Simmons 
+      year: 2013
+      program: Human Biology
+    - name: Stephanie Muscat
+      year: 2013
+      program: Human Biology
+    - name: Rebecca Chung
+      year: 2012
+      program: Symbolic Systems
+- role: Summer Interns
+  people:
+    - name: Brittany Linus 
+      year: 2022
+      program: Stanford University Symbolic Systems
+    - name: Deba Elaiho
+      year: 2021 & 2022
+      program: Stanford University Human Biology
+    - name: Jason Miranda
+      year: 2022
+      program: Stanford University Human Biology
+    - name: Mary Markley
+      year: 2022
+      program: Stanford University Linguistics
+    - name: Minh Khổng Bùi 
+      year: 2022
+      program: University of California Fullerton
+    - name: Morgan Wyatt
+      year: 2022
+      program: Stanford University Psychology
+    - name: Renaecia Mae Deleon Guerrero
+      year: 2022
+      program: Stanford University Human Biology
+    - name: Isaac Bever 
+      year: 2021
+      program: Stanford University Symbolic Systems
+    - name: Grace Butler
+      year: 2021
+      program: San José State University
+    - name: Qi Han
+      year: 2021
+      program: Stanford University Linguistics
+    - name: Ummara Khan
+      year: 2021
+      program: Stanford University Human Biology
+    - name: Hannah Marie Matteson
+      year: 2021
+      program: Stanford University Psychology
+    - name: Brennan Nick
+      year: 2021
+      program: Stanford University Linguistics
+    - name: Isobel Taylor 
+      year: 2021
+      program: Stanford University Psychology
+    - name: Jiayi Wang
+      year: 2021
+      program: Boston University
+    - name: Ruby Ru
+      year: 2020
+      program: Smith College
+    - name: Yiling (Elaine) Ren
+      year: 2020
+      program: Trinity College
+    - name: Naiti Bhatt 
+      year: 2020
+      program: Scripps College
+    - name: Elizabeth Swanson
+      year: 2020
+      program: Stanford University Linguistics
+    - name: Hannah Marshall
+      year: 2020
+      program: Stanford University Psychology
+    - name: Claire Baker
+      year: 2020
+      program: Stanford University Human Biology
+    - name: Isabella Duan
+      year: 2020
+      program: Stanford University Human Biology
+    - name: Gloria Yi 
+      year: 2020
+      program: Stanford Univeristy Symbolic Systems
+    - name: Sophie Regan
+      year: 2020
+      program: Stanford University Symbolic Systems (M.S.)
+      
