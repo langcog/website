@@ -20,6 +20,8 @@ exclude:
   - "wikiuploads"
   - "ignore"
 
+exclude: [vendor]
+
 keep_files:
   - "files"
   - "wikiuploads"
