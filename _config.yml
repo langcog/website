@@ -4,7 +4,8 @@ email: bsparks@stanford.edu
 description: >
   Stanford Language and Cognition Lab
   (affectionately called LangCog Lab)
-#url: "http://langcoglab.stanford.edu/"
+url: https://langcog.github.io
+repository: langcog/langcog.github.io
 github_username:  bsparks98
 
 gems: ['jekyll/scholar']
