@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Offline Calibration</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39528439-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<h2><strong>Offline calibration 
+ adjustment for Tobii eye-trackers</strong></h2>
+<p>This page describes ongoing efforts to identify and correct calibration errors for Tobii eye trackers. This is a particular problem for infants and young children, who cannot be instructed to look at particular calibration locations. We noticed that some infant participants in our studies had large, systematic calibration errors. The Tobii tracker would record their point-of-gaze as being several degress of visual angle away from where they actually were looking, but because this error was consistent, it would not be revealed by the Tobii's calibration display. We developed a method for correcting these errors by including a calibration check stimulus in our experiment, calculating the correction necessary to align infants' point of gaze to this calibration stimulus, and then applying this correction to the entire gaze recording.</p>
+ <h3><strong>High-level description</strong>
+ </h3>
+ <p><a href="icis_calib_slides.pdf">[pdf]</a> A few slides that briefly illustrate the problem. They were delivered at the breakfast symposium on Tobii Methods organized by Chuck Nelson and Helen Tager-Flusberg at ICIS 2010 in Baltimore.
+ </p>
+<p>A movie showing a single infant participant with a large and systematic error, <a href="unmarked.mov">without that participant marked</a> (try and spot which baby it is) and <a href="marked.mov">with the participant marked by a large X</a>. 
+</p>
+<p><a href="../papers/FVS-infancy2012.pdf">[pdf]</a> Frank, M. C., Vul, E., and Saxe, R. (2012). Measuring the development of social attention using free-viewing. <em>Infancy</em>. (This is a paper that uses our offline calibration method and also describes some other aspects of our eye-tracking analyses.)</p>
+<h3><strong>Materials</strong></h3>
+<h4>Movies </h4>
+<p>We include both .MOV and .AVI formats because the Tobii tracker only accepts .AVI. The .MOVs are very small and easy to view, while the .AVIs are quite large, so only download them if you need to use them with the Tobii.</p>
+<ul>
+  <li><a href="star_calib.mov">[mov - 500KB]</a> <a href="star_calib.avi">[avi - 25MB]</a> The first calibration-check stimulus we developed. It is short and engaging, but less accurate than the second because the target moves. </li>
+  <li><a href="calib_check.mov">[mov - 1MB]</a> The second calibration-check stimulus we developed. This one is quite precise because of the inward movement of the gratings and the large number of locations in which the target is shown, but it is more boring for infants. Adding snappy music (e.g. Beach Boys) helps keep infants' attention.</li>
+</ul>
+<h4>Code</h4>
+<p>Here is basic Matlab code for a self-contained implementation of calibration-checking and adjustment (note, updated 5-18-11 to fix a minor bug in the regression code). The code includes two scripts, calculateCalibAdjustment.m and applyCalibAdjustment.m. It also includes a small (real) dataset with some calibrations that are generally pretty good but can be improved by adjustment (in calib_data.mat) and some raw data that can be adjusted (in raw_data.mat). Adjustments are stored in calib_adjustments.mat.  This code depends on robustfit.m, a function that is included in the statistics toolbox.</p>
+<p>Our method is extremely simple. It takes as input gaze data from one of the two movies above, in both of which a target moves on a black background. Our code uses two independent robust regressions (a method for doing regression that down-weights outliers), one in the X plane and one in the Y plane. These regressions  calculate the slope and intercept needed to best predict the location of the target on the basis of the participants' point of gaze. We regress only on the times when the target is stable, allowing a period of time for the participant to saccade to the target location.</p>
+<p><a href="calib_adjust_code.zip">[zip]</a>  Code corresponding to the Matlab scripts that we use to plot and correct calibrations.</p>
+<p>We hope that if you use this code in your own work, you will cite the paper above (Frank, Vul, and Saxe, submitted). Please email mcfrank at stanford dot edu with questions or issues.</p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Modeling Rule Learning</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39528439-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<p><span style="font-weight: bold;">Code page for </span><strong>Frank &amp; Tenenbaum (2011, <em>Cognition</em>),<span style="font-weight: bold;"> &quot;Three ideal observer models of rule learning in simple languages.</span>&quot;</strong><br />
+</p>
+<p>Code is now maintained at <a href="https://github.com/mcfrank/rules">https://github.com/mcfrank/rules</a>.</p>
+<p><a href="../papers/FT-2011-corrigendum.pdf">Errata are here</a>.</p>
+<p>1. Equation 4 is incorrect (resulting in minor numerical differences). This difference was reflected in the code and is now updated above. It shoudl read  \frac{(1-\alpha)}{|S|} instead of \frac{(1-\alpha)}{|S|-|r|}.</p>
+<p>2. Equation 8 for the paper is misprinted (sum and product are reversed). It should read \prod_{e_k \in E}{\sum_{r_j \in R}{...}}. Thanks to Ansgar Endress for this correction. </p>
+<p>All code was developed using Matlab R2010a (but run on versions through 2013b). Please report any issues to the authors.</p>
+</body>
+</html>
