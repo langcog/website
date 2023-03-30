@@ -6,7 +6,7 @@ Here's how to edit this website!
 
 ## Overview
 
-1. Checkout [this repo](//github.com/langcog/langcog.github.io) on github
+1. Checkout [this repo](//github.com/langcog/website) on github
 2. Make changes and push to github (make sure you have collaborator privileges, and see later sections for details on specific kinds of changes)
 3. Changes should appear automatically on the lab website.
 
@@ -14,7 +14,7 @@ Here's how to edit this website!
 
 ### How to add a new page to the website
 
-1. make a markdown file, e.g. `new-file.md` in the top of the `langcog.github.io` directory
+1. make a markdown file, e.g. `new-file.md` in the top of the `website` directory
 
 2. add this to the top of the markdown file:
 
@@ -42,7 +42,7 @@ Here's how to edit this website!
 		    - [OTHER PEOPLE]
 		    - name: New Person
 		      img: newPerson.jpg
-			  baby: babyPerson.jpg
+		      baby: babyPerson.jpg
 		      webpage: //www.stanford.edu/~newP
 		      bio:
 		        - >
@@ -69,18 +69,18 @@ Here's how to edit this website!
 
 ### Set up
 
-To set up installing ruby gems without sudo access, these lines should be in your `~/.bash_profile` (or `~/.bashrc` or whatever you use):
+Download Ruby Gems. To set up installing ruby gems without sudo access, these lines should be in your `~/.bash_profile` (or `~/.bashrc` or whatever you use):
 
 ```
 PATH=$PATH:~/.gem/bin:~/bin
 export GEM_HOME=~/.gem
 ```
 
-Once you've re-logged on or `source`ed your profile file, you can install [`jekyll`](https://jekyllrb.com/) and [`jekyll-scholar`](https://github.com/inukshuk/jekyll-scholar) using `gem`. This site uses `jekyll (2.5.3)` and `jekyll-scholar (4.3.3)`.
+Once you've re-logged on or `source`ed your profile file, you can install [`jekyll`](https://jekyllrb.com/) and [`jekyll-scholar`](https://github.com/inukshuk/jekyll-scholar) using `gem`. This site uses `jekyll (3.9.3)` and `jekyll-scholar (5.16.0)`.
 
 ```
-gem install jekyll -v 2.5.3
-gem install jekyll-scholar -v 4.3.3
+gem install jekyll -v 3.9.3
+gem install jekyll-scholar -v 5.16.0
 ```
 
 Note that while `jekyll` is compatible with [GitHub pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), [`jekyll-scholar` is not](https://github.com/inukshuk/jekyll-scholar#github-pages).
