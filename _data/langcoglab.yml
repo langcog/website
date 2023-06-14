@@ -66,7 +66,16 @@
         - >
           Veronica received her BS in Brain and Cognitive Sciences from MIT in 2019 where she did work 
           on incremental language processing. She is interested in adaptation and convention formation in conversation.
-
+    - name: Julio Martinez
+      img: julio.jpg
+      baby: julio_baby.jpg
+      webpage: https://martinezjulio.com/
+      bio:
+        - >
+          Prior to the PhD, Julio received his BS with a double major in Mathematics and Structural Engineering from UC San Diego
+          and an MS in Computational and Mathematical Engineering from Stanford University. He has ongoing work on computational 
+          modeling of human physical intrinsic motivation. His more recent interests are in the area of modeling multi-agent/social 
+          learning and theory of mind.
     - name: Alvin Tan
       img: alvin.jpg
       baby: alvin_baby.jpg
@@ -98,6 +107,16 @@
           from Stanford University where he was a research assistant in the Social Learning Lab. He is interested in the
           developemental, cognitive, and interpersonal effects of family system distress and exploring interventions for
           supporting early learning, healthy developement, and positive relational functioning.
+    - name: Grace Keene
+      img: grace.png
+      baby: grace_baby.png
+      bio:
+        - >
+          Grace is a Research Coordinator. I graduated from UC Berkeley where I completed my BA in philosophy and a minor in early childhood development and 
+          learning science. I was a research assistant in the Gopnik Lab where I engaged with studies that seek to understand 
+          the factors that influence children's decisions to explore or exploit their environment. I am broadly interested in 
+          expanding my understanding of different approaches in the field. Children's development of morality and beliefs about 
+          right and wrong also interests me. I am excited to learn more about children’s learning, behavior, and beliefs. 
 
 - role: Research Assistants
   people:
