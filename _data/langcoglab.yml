@@ -100,13 +100,14 @@
     - name: Bobby Sparks
       img: bobby.jpg
       baby: bobby_baby.png
+      webpage: https://rbzsparks.github.io
       twitter: https://twitter.com/rbzsparks
       bio:
         - >
           Bobby is the current lab manager. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
-          from Stanford University where he was a research assistant in the Social Learning Lab. He is interested in the
-          developemental, cognitive, and interpersonal effects of family system distress and exploring interventions for
-          supporting early learning, healthy developement, and positive relational functioning.
+          from Stanford University where he was a research assistant in the Social Learning Lab. He is interested in variability in
+          our developmental ecology and the developemental, cognitive, and interpersonal effects of early ecogological adversity. He is also
+          interested in mechanisms for supporting resilience, early learning, and positive functioning across diverse contexts. 
     - name: Grace Keene
       img: grace.png
       baby: grace_baby.png
