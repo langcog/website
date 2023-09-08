@@ -11,6 +11,7 @@ permalink: /parents
 <br>
 <img src="{{site.url}}{{site.baseurl}}/images/parents.png" alt="Parents">
 <br>
+</div>
 <br>
 The Language and Cognition Lab is a member of Stanford Developemental Labs: a consortium of four research groups in the Stanford Psychology Department, each working to answer many different questions about infant and child development. Each lab is currently running several studies for children of a variety of ages. To learn more about the studies being conducted by our group, check out the <a href="https://sll.stanford.edu/participate_currentstudies.html">List of Current Studies</a> and use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVif-FKLg0ifoVuSIZeMiZGOXvujJc6hXro1K6OSCmXO6h4w/viewform">online form</a> to sign up to participate.
 <br>
@@ -38,7 +39,6 @@ Our group also runs studies online through <a href="https://sll.stanford.edu/par
 <br>
 <h2>Studies with Adults</h2>
 The Language and Cognition Lab also runs studies with adults, typically in online interfaces such as <a href="https://www.prolific.co/">Prolific</a> and <a href="https://worker.mturk.com/">mTurk</a>. To participate in in-person studies, you can register with the <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6eoV_VWXLew9mr_UkHsj3QZcPCMb2zorQCR9ZSxD9omzc9A/viewform">Stanford Psychology Department Subject Pool</a>.
-</div>
 
 
 
