@@ -9,7 +9,7 @@ permalink: /babyview
 <h1>Interested in participating in the BabyView Project?</h1>
 
 <br>
-<img src="{{site.url}}{{site.baseurl}}/images/Stanford BabyView Recruitment.jpg" alt="Poster">
+<img src="{{site.url}}{{site.baseurl}}/images/Stanford BabyView Recruitment.jpg" alt="Poster" height="750px">
 <br>
 </div>
 
