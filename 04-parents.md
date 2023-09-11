@@ -32,6 +32,11 @@ We conduct research for children ages 0-8 years old at the <a href="https://www.
 We also conduct research at <a href="https://bingschool.stanford.edu/research/research-bing">Bing Nursey School</a> on Stanford's Campus with children ages 2-5 years old. We get to know the children in the classroom and invite them to play fun games with us. Going to the game rooms is an exciting experience for many of the children at Bing! 
 <br>
 <br>
+<b>BabyView</b>
+<br>
+BabyView is a longitudinal study where children ages 6-36 months wear the BabyView, a helmet with a camera mounted on it. This gives us vaulable first-person recordings of children's early life! If you are interested you can fill out the interest form and learn more <a href="https://langcog.stanford.edu/babyview">here</a>! 
+<br>
+<br>
 <b>Online Studies</b>
 <br>
 Our group also runs studies online through <a href="https://sll.stanford.edu/participate_currentstudies.html">Stanford Developemtnal Labs</a>. These sessions are typically hosted on Zoom and lasts only about 15 minutes. Children usually watch videos or get to experience an interactive game with one of our researchers. If you're interested in participating in online studies, you can <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVif-FKLg0ifoVuSIZeMiZGOXvujJc6hXro1K6OSCmXO6h4w/viewform">sign up here</a>!
