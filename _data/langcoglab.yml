@@ -58,7 +58,6 @@
           Rondeline received her B.A. in Psychology from Cornell University in 2017 before completing
           an NIH-funded research project at The Ohio State University. She is interested in the impact 
           of auditory noise on young children's processing efficiency and language development.
-    
     - name: Anjie Cao
       img: anjie.jpg
       baby: anjie_baby.jpeg
@@ -70,7 +69,6 @@
           Anjie received her B.S. in Cognitive Science with an additional major in Philosophy from 
           Carnegie Mellon University in 2020. She is interested in using experimental methods and 
           computational modeling to understand human information-seeking behavior.
-
     - name: Veronica Boyce
       img: veronica.jpg
       baby: veronica_baby.jpg
@@ -96,7 +94,6 @@
         - >
           Alvin received a BA in Psychology and Linguistics from Oxford in 2020, and an MS in Symbolic Systems from Stanford 
           in 2022. He is interested in language learning in young children.
-
     - name: Samah Abdelrahim
       img: samah.jpg
       baby: samah_baby.png
@@ -107,7 +104,6 @@
          BSC in electrical engineering from University of Khartoum, MSc in cognitive science from Columbia University. 
          Interested in the study of cognitive development and language development in particular. Intrigued by the 
          intersection between language and cognition from a cross-cultural perspective.
-
     - name: Steven Feng
       img: steven.jpg
       baby: steven_baby.png
@@ -121,7 +117,6 @@
          multidisciplinary knowledge, with an emphasis on enhancing machine understanding and generation of human language and 
          vision. This includes exploring methods to improve the controllability and reasoning of language and visual models, 
          and investigating cognitive strategies to align human and machine learning.
-
 - role: Research Staff
   people:
     - name: Bobby Sparks
@@ -146,7 +141,6 @@
           the factors that influence children's decisions to explore or exploit their environment. I am broadly interested in 
           expanding my understanding of different approaches in the field. Children's development of morality and beliefs about 
           right and wrong also interests me. I am excited to learn more about children’s learning, behavior, and beliefs. 
-   
     - name: Heidi Baumgartner
       img: heidi.jpg
       baby: heidi_baby.png
@@ -160,7 +154,6 @@
           Heidi was an undergrad at Stanford, did her graduate work at UC Davis, and was a postdoc at Brown University. 
           She's happy to be back at Stanford working as the Executive Director of ManyBabies, a global consortium of developmental
           psychology labs.
-
     - name: Mika Braginsky
       img: mika.jpeg
       baby: mika_baby.jpeg
@@ -170,7 +163,6 @@
           Mika is a software developer working on tools that enable data sharing and promote open science practices. Previously they 
           received their PhD from MIT, where they studied children's early language learning, specifically data-driven analyses of lexical 
           and morphological development.
-
 - role: Research Assistants
   people:
     - name: Chloe Haydel Brown
@@ -196,7 +188,6 @@
         - >
          Malia is a current research assistant. Malia is a junior at Stanford pursing a B.S. in Human Biology with a concentration in Psychological 
          Development, Ethics, and Healths throught the human life. She is interested in social impacts upon language development. 
-
 - role: Visiting Scholars
   people:
     - name: Yang Gao
@@ -205,7 +196,6 @@
       bio:
         - >
          Yang is a Ph.D. candidate in Psychology at Tsinghua University with a specialization in Cognitive Science. She is generally interested in the spontaneous generation of analogies.
-
 - role: Lab Alums
   people:
     - name: Georgia Loukatou
