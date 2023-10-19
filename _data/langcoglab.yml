@@ -112,11 +112,10 @@
       socialname: Twitter
       bio:
         - >
-         Steven is a Computer Science PhD student, working with the Stanford AI and NLP groups. He completed a master's 
-         at Carnegie Mellon University and an undergrad at the University of Waterloo. He wishes to advance AI by integrating 
-         multidisciplinary knowledge, with an emphasis on enhancing machine understanding and generation of human language and 
-         vision. This includes exploring methods to improve the controllability and reasoning of language and visual models, 
-         and investigating cognitive strategies to align human and machine learning.
+         Steven is a Computer Science PhD student, working with the Stanford AI and NLP groups. He completed a master's at Carnegie Mellon 
+         University and an undergrad at the University of Waterloo. He wishes to advance AI with multidisciplinary knowledge, mainly by 
+         enhancing machine understanding and generation of human language and vision. This includes exploring methods to improve the
+         controllability and reasoning of language and visual models, and investigating cognitive strategies to align human and machine learning.
 - role: Research Staff
   people:
     - name: Bobby Sparks
@@ -163,6 +162,16 @@
           Mika is a software developer working on tools that enable data sharing and promote open science practices. Previously they 
           received their PhD from MIT, where they studied children's early language learning, specifically data-driven analyses of lexical 
           and morphological development.
+    - name: Amy Lightbody Kuhns
+      img: amy.jpg
+      baby: amy_baby.jpg
+      webpage: https://linkedin.com/in/amy-lightbody-kuhns
+      bio:
+        - >
+          Amy is a Senior Research Scholar. She completed a B.A. in Psychology and M.A. and Ph.D. in Psychological Studies in Education, 
+          all at UCLA. Amy has spent many years at the intersection of neuroscience, genetics, cognition, emotion, and behavior studying 
+          developmental trajectories in children with conditions such as fragile X syndrome. More broadly she is interested in research 
+          designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
 - role: Research Assistants
   people:
     - name: Chloe Haydel Brown
