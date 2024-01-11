@@ -172,16 +172,16 @@
           all at UCLA. Amy has spent many years at the intersection of neuroscience, genetics, cognition, emotion, and behavior studying 
           developmental trajectories in children with conditions such as fragile X syndrome. More broadly she is interested in research 
           designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
-- role: Research Assistants
+- role: Senior Research Assistants
   people:
-    - name: Chloe Haydel Brown
-      img: chloe.png
-      baby: chloe_baby.png
+    - name: Kaitlyn Leahy
+      img: kaitlyn.jpeg
+      baby: kaitlyn_baby.jpeg
+      webpage: https://www.linkedin.com/in/kaitlyn-leahy-20159b1a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
       bio:
         - >
-         Chloe is a current Research Assistant. Chloe is a senior at Stanford pursuing a B.S. in Symbolic Systems with a concentration in 
-         Natural Languages and a minor in Translation Studies (Spanish). She is also pursuing an M.S. in Sustainability Science and Practice. She 
-         is interested in child language development in multilingual families and second language acquisition. 
+         Kaitlyn is a current research assistant. She is a masters student pursuing a degree in Sustainability and completed her undergraduate 
+         degree in Economics. She is interested in the impact of early learning on the development of beliefs. 
     - name: Denis Ness Arikan
       img: ness.jpeg
       baby: ness_baby.jpeg
@@ -197,16 +197,11 @@
         - >
          Malia is a current research assistant. Malia is a junior at Stanford pursing a B.S. in Human Biology with a concentration in Psychological 
          Development, Ethics, and Healths throught the human life. She is interested in social impacts upon language development. 
-- role: Visiting Scholars
-  people:
-    - name: Yang Gao
-      img: yang.jpg
-      baby: yang_baby.jpg
-      bio:
-        - >
-         Yang is a Ph.D. candidate in Psychology at Tsinghua University with a specialization in Cognitive Science. She is generally interested in the spontaneous generation of analogies.
 - role: Lab Alums
   people:
+    - name: Chloe Haydel Brown
+      was: Graduate Research Assistant
+      now: Fulbright English Teaching Program
     - name: Georgia Loukatou
       was: Research Fellow
       now: 
