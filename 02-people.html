@@ -97,11 +97,11 @@ permalink: /people
                     {% else %}
                         <b><span class="name" style="font-size:20px" id="{{role.role}}" name="{{person.name}}">{{person.name}}</span></b>
                     {% endif %}
-                    {% if person.blog %}
-                    (<a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.blog}}">Blog</a>
-                    {% if person.twitter %}, <a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.twitter}}">Twitter</a>{% endif %})
-                    {% elsif person.twitter %}
-                    (<a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.twitter}}">Twitter</a>)
+                    {% if person.site %}
+                    (<a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.site}}">{{person.sitename}}</a>
+                    {% if person.social %}, <a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.social}}">{{person.socialname}}</a>{% endif %})
+                    {% elsif person.social %}
+                    (<a class="subtle_link" id="{{role.role}}" name="{{person.name}}"  href="{{person.social}}">{{person.socialname}}</a>)
                     {% endif %}
                     <!-- <h3>{{role.role}}</h3> -->
                     {% if person.was %}

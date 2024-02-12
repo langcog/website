@@ -4,8 +4,10 @@
       img: mike.jpg
       baby: mike_baby.jpg
       webpage: http://www.stanford.edu/~mcfrank
-      blog: http://babieslearninglanguage.blogspot.com/
-      twitter: http://twitter.com/mcxfrank
+      site: http://babieslearninglanguage.blogspot.com/
+      sitename: Blog
+      social: http://twitter.com/mcxfrank
+      socialname: Twitter
       bio: 
         - >
           Mike did his undergraduate degree at Stanford in Symbolic Systems and his PhD work at MIT. 
@@ -36,6 +38,16 @@
          understanding variability and strengths in contexts of early adversity. A key aim of her 
          research is to create and collaborate on innovative uses of technology and statistical 
          methods to support education and developmental science.
+    - name: Rebecca Zhu
+      img: rebecca.png
+      baby: rebecca_baby.png
+      bio:
+        - >
+         Rebecca received her B.Sc. from the University of Toronto and her Ph.D. from UC Berkeley.  
+         Her research program investigates when and how children learn about - and consequently 
+         learn from - symbolic systems, such as language and pictures. Specifically, her
+         postdoctoral work investigates the development of picture comprehension across 
+         cultures and contexts.
 - role: Graduate Students
   people:
     - name: Rondeline Williams
@@ -46,18 +58,17 @@
           Rondeline received her B.A. in Psychology from Cornell University in 2017 before completing
           an NIH-funded research project at The Ohio State University. She is interested in the impact 
           of auditory noise on young children's processing efficiency and language development.
-    
     - name: Anjie Cao
       img: anjie.jpg
       baby: anjie_baby.jpeg
       webpage: https://anjiecao.github.io/
-      twitter: https://twitter.com/anjie_cao
+      social: https://twitter.com/anjie_cao
+      socialname: Twitter
       bio:
         - >
           Anjie received her B.S. in Cognitive Science with an additional major in Philosophy from 
           Carnegie Mellon University in 2020. She is interested in using experimental methods and 
           computational modeling to understand human information-seeking behavior.
-
     - name: Veronica Boyce
       img: veronica.jpg
       baby: veronica_baby.jpg
@@ -83,25 +94,36 @@
         - >
           Alvin received a BA in Psychology and Linguistics from Oxford in 2020, and an MS in Symbolic Systems from Stanford 
           in 2022. He is interested in language learning in young children.
-
     - name: Samah Abdelrahim
       img: samah.jpg
       baby: samah_baby.png
+      social: https://twitter.com/SamahARahim
+      socialname: Twitter
       bio:
         - >
-         Received a BSC in electrical engineering from University of Khartoum, and then received a master degree 
-         in computer science from Arizona state university and a master degree in cognitive science from Columbia 
-         university. I have been interested in the study of cognitive development and language development in particular.
-         I am intrigued by the intersection between language and cognition. I am also interested in the cross-cultural 
-         approaches of conducting research in cognitive development.
-
+         BSC in electrical engineering from University of Khartoum, MSc in cognitive science from Columbia University. 
+         Interested in the study of cognitive development and language development in particular. Intrigued by the 
+         intersection between language and cognition from a cross-cultural perspective.
+    - name: Steven Feng
+      img: steven.jpg
+      baby: steven_baby.jpg
+      webpage: https://styfeng.github.io/
+      social: https://twitter.com/stevenyfeng
+      socialname: Twitter
+      bio:
+        - >
+         Steven is a Computer Science PhD student, working with the Stanford AI and NLP groups. He completed a master's at Carnegie Mellon 
+         University and an undergrad at the University of Waterloo. He wishes to advance AI with multidisciplinary knowledge, mainly by 
+         enhancing machine understanding and generation of human language and vision. This includes exploring methods to improve the
+         controllability and reasoning of language and visual models, and investigating cognitive strategies to align human and machine learning.
 - role: Research Staff
   people:
     - name: Bobby Sparks
       img: bobby.jpg
       baby: bobby_baby.png
       webpage: https://rbzsparks.github.io
-      twitter: https://twitter.com/rbzsparks
+      social: https://bsky.app/profile/rbzsparks.bsky.social
+      socialname: BlueSky
       bio:
         - >
           Bobby is the current lab manager. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
@@ -118,20 +140,68 @@
           the factors that influence children's decisions to explore or exploit their environment. I am broadly interested in 
           expanding my understanding of different approaches in the field. Children's development of morality and beliefs about 
           right and wrong also interests me. I am excited to learn more about children’s learning, behavior, and beliefs. 
-
-- role: Research Assistants
-  people:
-    - name: Chloe Haydel Brown
-      img: chloe.png
-      baby: chloe_baby.png
+    - name: Heidi Baumgartner
+      img: heidi.jpg
+      baby: heidi_baby.png
+      webpage: https://heidibaum.github.io/
+      site: https://manybabies.org
+      sitename: ManyBabies 
+      social: https://bsky.app/profile/hbaum.bsky.social
+      socialname: BlueSky
       bio:
         - >
-         Chloe is a current Research Assistant. Chloe is a senior at Stanford pursuing a B.S. in Symbolic Systems with a concentration in 
-         Natural Languages and a minor in Translation Studies (Spanish). She is also pursuing an M.S. in Sustainability Science and Practice. She 
-         is interested in child language development in multilingual families and second language acquisition. 
-
+          Heidi was an undergrad at Stanford, did her graduate work at UC Davis, and was a postdoc at Brown University. 
+          She's happy to be back at Stanford working as the Executive Director of ManyBabies, a global consortium of developmental
+          psychology labs.
+    - name: Mika Braginsky
+      img: mika.jpeg
+      baby: mika_baby.jpeg
+      webpage: https://mikabr.io
+      bio:
+        - >
+          Mika is a software developer working on tools that enable data sharing and promote open science practices. Previously they 
+          received their PhD from MIT, where they studied children's early language learning, specifically data-driven analyses of lexical 
+          and morphological development.
+    - name: Amy Lightbody Kuhns
+      img: amy.jpg
+      baby: amy_baby.jpg
+      webpage: https://linkedin.com/in/amy-lightbody-kuhns
+      bio:
+        - >
+          Amy is a Senior Research Scholar. She completed a B.A. in Psychology and M.A. and Ph.D. in Psychological Studies in Education, 
+          all at UCLA. Amy has spent many years at the intersection of neuroscience, genetics, cognition, emotion, and behavior studying 
+          developmental trajectories in children with conditions such as fragile X syndrome. More broadly she is interested in research 
+          designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
+- role: Senior Research Assistants
+  people:
+    - name: Kaitlyn Leahy
+      img: kaitlyn.jpeg
+      baby: kaitlyn_baby.jpeg
+      webpage: https://www.linkedin.com/in/kaitlyn-leahy-20159b1a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+      bio:
+        - >
+         Kaitlyn is a current research assistant. She is a masters student pursuing a degree in Sustainability and completed her undergraduate 
+         degree in Economics. She is interested in the impact of early learning on the development of beliefs. 
+    - name: Denis Ness Arikan
+      img: ness.jpeg
+      baby: ness_baby.jpeg
+      bio:
+        - >
+         Ness is a current Research Assistant. She is an undergraduate student pursuing a B.A. in Psychology and a B.A. in Data Science 
+         & Social Systems. She is currently engaged with a study investigating auditory noise on children’s language development. 
+         She is excited by learning more about research in cognitive psychology and computational methods.
+    - name: Malia Perez
+      img: malia.png
+      baby: malia_baby.jpg
+      bio:
+        - >
+         Malia is a current research assistant. Malia is a junior at Stanford pursing a B.S. in Human Biology with a concentration in Psychological 
+         Development, Ethics, and Healths throught the human life. She is interested in social impacts upon language development. 
 - role: Lab Alums
   people:
+    - name: Chloe Haydel Brown
+      was: Graduate Research Assistant
+      now: Fulbright English Teaching Program
     - name: Georgia Loukatou
       was: Research Fellow
       now: 
@@ -319,6 +389,30 @@
       program: Symbolic Systems
 - role: Summer Interns
   people:
+    - name: Ilaria Chen
+      year: 2023
+      program: Stanford University Symbolic Systems
+    - name: Meghan Dontha
+      year: 2023
+      program: Stanford University Psychology
+    - name: Bella Fontanilla
+      year: 2023
+      program: College of San Mateo
+    - name: Abigail Maldonado
+      year: 2023
+      program: Stanford University Human Biology
+    - name: Alissa Pascual
+      year: 2023
+      program: Stanford University Human Biology
+    - name: Malia Perez
+      year: 2023
+      program: Undergraduate Intern
+    - name: Katya Sander
+      year: 2023
+      program: Stanford University Human Biology
+    - name: Naiomi Solomon
+      year: 2023
+      program: Stanford University Symbolic Systems
     - name: Brittany Linus 
       year: 2022
       program: Stanford University Symbolic Systems
@@ -391,4 +485,3 @@
     - name: Sophie Regan
       year: 2020
       program: Stanford University Symbolic Systems (M.S.)
-      
