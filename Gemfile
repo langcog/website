@@ -40,5 +40,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 gem "github-pages", "~> 228", group: :jekyll_plugins
 
-gem 'jekyll-scholar', group: :jekyll_plugins
-
+gem "jekyll-scholar", "~> 5.16.0", group: :jekyll_plugins

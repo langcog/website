@@ -1,0 +1,31 @@
+---
+layout: default
+title: Resources
+permalink: /resources
+---
+
+<div class="grid">
+	{% for item in site.data.resources %}
+
+	  <div class="card g-col-md-4">
+	    <div class="card-header">
+	      	<div class="card-banner">
+
+	      		{% if item.logo %}
+	      			<img src="{{ item.logo }}" alt="{{ item.description }}" class="card-logo"/>
+	      		{% else %}
+	      			<img src="images/site_logo.png" class="card-logo"/>
+	      		{% endif %}
+	        	<a href="{{ item.href }}" target="_blank">{{ item.title }}</a>
+	    	</div>
+	        <small>{{ item.subtitle }}</small>
+	    </div>
+	    <div class="card-body">
+	    <a href="{{ item.href }}" target="_blank">
+	      <img src="{{ item.thumbnail }}" alt="{{ item.description }}" class="card-img-bottom"/>
+	    </a>
+		</div>
+	  </div>
+
+	{% endfor %}
+</div>

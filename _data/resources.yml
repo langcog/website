@@ -1,0 +1,60 @@
+- item: wordbank
+  title: Wordbank
+  subtitle: Open database of children's vocabulary development, with >100,000 CDI administrations in 40+ languages
+  href: https://wordbank.stanford.edu/
+  logo: images/resources/wordbank-logo.png
+  thumbnail: images/resources/wordbank.png
+
+- item: peekbank
+  title: peekbank
+  subtitle: Flexible and reproducible interface to developmental eyetracking datasets
+  href: https://peekbank.stanford.edu/
+  logo: images/resources/peekbank-logo.png
+  thumbnail: images/resources/peekbank.png
+
+- item: childes-db
+  title: childes-db
+  subtitle: Flexible and reproducible interface to CHILDES (corpora of child language transcripts)
+  href: https://childes-db.stanford.edu/
+  logo: images/resources/childes-db-logo.png
+  thumbnail: images/resources/childes-db.png
+
+- item: datapages
+  title: Datapages
+  subtitle: Tools and templates for sharing datasets along with interactive visualizations and rich documentation
+  href: https://datapages.github.io/
+  logo: images/resources/datapages-logo.png
+  thumbnail: images/resources/datapages.png
+
+- item: metalab
+  title: MetaLab
+  subtitle: Platform for visualization and exploration of meta-analyses of developmental data
+  href: https://metalab.stanford.edu/
+  logo: images/resources/metalab-logo.png
+  thumbnail: images/resources/metalab.png
+
+- item: manybabies
+  title: ManyBabies
+  subtitle: Collaborative project for replication and best practices in developmental psychology research
+  href: http://manybabies.stanford.edu/
+  logo: images/resources/manybabies-logo.png
+  thumbnail: images/resources/manybabies.png
+
+- item: epaq
+  title: EPAQ
+  subtitle: Resources for learning about and administering the Early Parenting Attitudes Questionnaire
+  href: https://epaq.stanford.edu/
+  logo: images/resources/epaq-logo.png
+  thumbnail: images/resources/epaq.png
+
+- item: saycam
+  title: SAYcam
+  subtitle: Collection of over 1700 videos recorded via head camera across three children 6–32 months old
+  href: https://nyu.databrary.org/volume/564
+  thumbnail: images/resources/saycam.png
+
+- item: babyview
+  title: BabyView
+  subtitle: Overview of a new camera designed to measure egocentric visual experience in early childhood
+  href: https://langcog.github.io/babyview/
+  thumbnail: images/resources/babyview.png
