@@ -53,6 +53,19 @@ permalink: /people
             {% endif %} ({{person.was}}){% if person.now %} -- {{person.now}} {% endif %}
         </p>
         {% endfor %}
+    {% elsif role.role == "Former Research Assistants" %}
+        <br>
+        <h1>{{role.role}}</h1>
+        <br>
+        {% for person in role.people %}
+        <p class="was">
+            {% if person.webpage %}
+                <a class="subtle_link" id="RA" name="{{person.name}}"  href="{{person.webpage}}">{{person.name}}</a>
+            {% else %}
+                <a class="subtle_link" id="RA" name="{{person.name}}">{{person.name}}</a>
+            {% endif %} ({{person.was}}){% if person.now %} -- {{person.now}} {% endif %}
+        </p>
+        {% endfor %}
     {% elsif role.role == "Honors Students" %}
         <br>
         <h1>{{role.role}}</h1>

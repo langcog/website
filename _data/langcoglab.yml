@@ -127,9 +127,9 @@
       bio:
         - >
           Bobby is the current lab manager. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
-          from Stanford University where he was a research assistant in the Social Learning Lab. He is interested in variability in
-          our developmental ecology and the developemental, cognitive, and interpersonal effects of early ecogological adversity. He is also
-          interested in mechanisms for supporting resilience, early learning, and positive functioning across diverse contexts. 
+          from Stanford University where he was a research assistant in the Social Learning Lab. He is interested in our early ecology
+          as a source of variability in cognitive & social development and how context & cognition interact with the effects of early adversity. 
+          He is also interested in mechanisms for supporting resilience, early learning, and positive functioning across diverse contexts. 
     - name: Grace Keene
       img: grace.png
       baby: grace_baby.png
@@ -140,6 +140,15 @@
           the factors that influence children's decisions to explore or exploit their environment. I am broadly interested in 
           expanding my understanding of different approaches in the field. Children's development of morality and beliefs about 
           right and wrong also interests me. I am excited to learn more about children’s learning, behavior, and beliefs. 
+    - name: Meesha Ryan
+      img: meesha.jpeg
+      baby: meesha_baby.jpg
+      bio:
+        - >
+          Meesha is a Research Coordinator. They graduated from Skidmore College with a BA in Psychology and a minor in English Literature. 
+          During their undergraduate studies, they worked in Dr. Jess Sullivan's Language and Cognition Lab and Dr. Corinne Moss-Racusin's 
+          Social and Intergroup Dynamics Lab. Meesha is interested in researching the intersections of children's emotional development, 
+          social development, and language acquisition (particularly acquisition of words pertaining to abstract concepts). 
     - name: Heidi Baumgartner
       img: heidi.jpg
       baby: heidi_baby.png
@@ -174,14 +183,6 @@
           designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
 - role: Senior Research Assistants
   people:
-    - name: Kaitlyn Leahy
-      img: kaitlyn.jpeg
-      baby: kaitlyn_baby.jpeg
-      webpage: https://www.linkedin.com/in/kaitlyn-leahy-20159b1a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-      bio:
-        - >
-         Kaitlyn is a current research assistant. She is a masters student pursuing a degree in Sustainability and completed her undergraduate 
-         degree in Economics. She is interested in the impact of early learning on the development of beliefs. 
     - name: Denis Ness Arikan
       img: ness.jpeg
       baby: ness_baby.jpeg
@@ -199,9 +200,6 @@
          Development, Ethics, and Healths throught the human life. She is interested in social impacts upon language development. 
 - role: Lab Alums
   people:
-    - name: Chloe Haydel Brown
-      was: Graduate Research Assistant
-      now: Fulbright English Teaching Program
     - name: Georgia Loukatou
       was: Research Fellow
       now: 
@@ -212,7 +210,7 @@
       was: Lab Manager
       now: Graduate Student, UW Madison
     - name: Sama Radwan
-      was: Research Assistant
+      was: Research Coordinator
       now: 
     - name: George Kachergis
       was: Research Scientist
@@ -230,10 +228,10 @@
       was: Research Coordinator 
       now: Graduate Student, John Hopkins University 
     - name: Charles Murray
-      was: Research Assistant
+      was: Research Coordinator
       now: 
     - name: Megan Merrick
-      was: Research Assistant
+      was: Research Coordinator
       now: Graduate Student, Indiana University
     - name: Hang Jiang
       was: Graduate Student
@@ -248,7 +246,7 @@
       was: Lab Manager
       now: Graduate Student, Princeton University
     - name: Vivian Zhang 
-      was: Research Assistant
+      was: Research Coordinator
       now: Graduate Student, Cornell University
     - name: Erica Yoon
       was: Graduate Student
@@ -269,7 +267,7 @@
       was: Postdoctoral Scholar
       now: Postdoctoral Scholar, Meta-Research Innovation Center, Charité – Universitätsmedizin Berlin
     - name: Alessandro Sanchez
-      was: Research Assistant
+      was: Research Coordinator
       now: Software Engineer, Atomwise
     - name: Emily Hembacher
       was: Postdoctoral Scholar
@@ -281,7 +279,7 @@
       was: Postdoctoral Scholar
       now: Assistant Professor, San Diego State University
     - name: Veronica Cristiano
-      was: Research Assistant
+      was: Research Coordinator
       now: Graduate Student, Gallaudet University
     - name: Molly Lewis
       was: Graduate Student
@@ -293,16 +291,16 @@
       was: Lab Manager
       now: UX Researcher, Blink
     - name: Mika Braginsky
-      was: Research Assistant
+      was: Research Coordinator
       now: Postdoctoral Scholar, Stanford University
     - name: Ann Nordmeyer
       was: Graduate Student
       now: Assistant Professor, Southern New Hampshire University
     - name: Sarah James
-      was: Research Assistant
+      was: Research Coordinator
       now:
     - name: Andrew Weaver
-      was: Research Assistant
+      was: Research Coordinator
       now:
     - name: Alexandra Horowitz
       was: Graduate Student
@@ -314,10 +312,10 @@
       was: Research Student
       now:
     - name: Theresa Hennings
-      was: Research Assistant
+      was: Research Coordinator
       now: Graduate Student, University of Washington
     - name: Stephan Meylan
-      was: Research Assistant
+      was: Research Coordinator
       now: Postdoctoral Fellow, Duke University and MIT
     - name: Chigusa Kurumada
       was: Graduate Student
@@ -328,6 +326,14 @@
     - name: Alex Stiller-Shulman
       was: Master's Student
       now: Assistant Professor, San Diego Miramar College
+- role: Former Research Assistants
+  people:
+    - name: Kaitlyn Leahy
+      was: Graduate Research Assistant
+      now: 
+    - name: Chloe Haydel Brown
+      was: Graduate Research Assistant
+      now: Fulbright English Teaching Program
 - role: Honors Students
   people:
     - name: Khuyen Le
