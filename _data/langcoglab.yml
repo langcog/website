@@ -15,17 +15,6 @@
           especially as it relates to children's early language development.
 - role: Postdocs
   people:
-    - name: Bria Long
-      img: bria.jpg
-      baby: bria_baby.jpeg
-      webpage: https://www.brialong.com/
-      bio:
-        - >
-          Bria did her undergraduate work at Stanford and is happy to be back on campus. 
-          She spent two years at École Normale Supérieure in France before doing her graduate 
-          work in vision science at Harvard University. Her postdoctoral work focuses on the 
-          development of visual concepts. For example, how do children learn what is —- and what 
-          isn't —- a cup? How do children's visual concepts change across development?
     - name: Kat Adams Shannon
       img: kat.jpg
       baby: kat_baby.jpg
@@ -48,6 +37,14 @@
          learn from - symbolic systems, such as language and pictures. Specifically, her
          postdoctoral work investigates the development of picture comprehension across 
          cultures and contexts.
+    - name: Mira Nencheva
+      img: mira.png
+      baby: mira_baby.png
+      webpage: https://miranencheva.com/
+      bio:
+        - >
+         Mira completed her PhD in psychology at Princeton University. Her research examines how the 
+         dynamics of emotion and language shape learning in infancy. 
 - role: Graduate Students
   people:
     - name: Rondeline Williams
