@@ -12,8 +12,6 @@
   label:
 - image: bobby_carousel.png
   label: 
-- image: bria_carousel.png
-  label: 
 - image: grace_carousel.png
   label:
 - image: julio_carousel.png
@@ -24,6 +22,8 @@
   label: 
 - image: meesha_carousel.png
   label: 
+- image: mira_carousel.png
+  label:
 - image: rebecca_carousel.png
   label:
 - image: rondeline_carousel.png
