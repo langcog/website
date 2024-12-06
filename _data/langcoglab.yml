@@ -132,11 +132,9 @@
       baby: grace_baby.png
       bio:
         - >
-          Grace is a Research Coordinator. I graduated from UC Berkeley where I completed my BA in philosophy and a minor in early childhood development and 
-          learning science. I was a research assistant in the Gopnik Lab where I engaged with studies that seek to understand 
-          the factors that influence children's decisions to explore or exploit their environment. I am broadly interested in 
-          expanding my understanding of different approaches in the field. Children's development of morality and beliefs about 
-          right and wrong also interests me. I am excited to learn more about children’s learning, behavior, and beliefs. 
+          Grace is a research coordinator. She received a BA and minor in Child Development from UC Berkeley where she was a research assistant in 
+          the Gopnik Lab. She is interested in cognitive and social development as well as social learning. Specifically, how we reason about rules, morality, 
+          and the self. 
     - name: Meesha Ryan
       img: meesha.jpeg
       baby: meesha_baby.jpg
@@ -160,7 +158,7 @@
           She's happy to be back at Stanford working as the Executive Director of ManyBabies, a global consortium of developmental
           psychology labs.
     - name: Mika Braginsky
-      img: mika.jpeg
+      img: mika.png
       baby: mika_baby.jpeg
       webpage: https://mikabr.io
       bio:
@@ -178,7 +176,7 @@
           all at UCLA. Amy has spent many years at the intersection of neuroscience, genetics, cognition, emotion, and behavior studying 
           developmental trajectories in children with conditions such as fragile X syndrome. More broadly she is interested in research 
           designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
-- role: Senior Research Assistants
+- role: Honors Students
   people:
     - name: Denis Ness Arikan
       img: ness.jpeg
@@ -193,8 +191,18 @@
       baby: malia_baby.jpg
       bio:
         - >
-         Malia is a current research assistant. Malia is a junior at Stanford pursing a B.S. in Human Biology with a concentration in Psychological 
-         Development, Ethics, and Healths throught the human life. She is interested in social impacts upon language development. 
+         Malia is a current research assistant. Malia is a senior at Stanford pursuing a B.S. in Human Biology with a concentration in Psychological 
+         Development and Behavioral Neuroscience. She is interested in social impacts on language development, and more broadly neurodevelopmental disorders.
+- role: Senior Research Assistants
+  people:
+    - name: Victoria Phan
+      img: victoria.png
+      baby: victoria_baby.png
+      bio:
+        - >
+         Victoria is a current Research Assistant. She is an undergraduate student pursuing a B.A. in Psychology. Victoria is interested in the physical and 
+         psychological development of children. She is excited to learn more about how children’s interactions and relationships with others shape their 
+         understanding of the world.
 - role: Lab Alums
   people:
     - name: Bria Long
