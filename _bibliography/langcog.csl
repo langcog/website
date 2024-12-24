@@ -57,7 +57,7 @@
   </macro>
   <macro name="secondary-contributors">
     <choose>
-      <if type="article-journal chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
+      <if type="article article-journal chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
         <names variable="translator editor container-author" delimiter=", " prefix=" (" suffix=")">
           <name and="symbol" initialize-with=". " delimiter=", "/>
           <label form="short" prefix=", " text-case="title"/>
@@ -204,7 +204,7 @@
             </if>
           </choose>
           <choose>
-            <if type="article-journal article-magazine" match="none">
+            <if type="article article-journal article-magazine" match="none">
               <group delimiter=": ">
                 <choose>
                   <if variable="publisher-place">
@@ -259,7 +259,7 @@
               </date>
               <text variable="year-suffix"/>
               <choose>
-                <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
+                <if type="article article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
                   <date variable="issued">
                     <date-part prefix=", " name="month"/>
                     <date-part prefix=" " name="day"/>
@@ -280,7 +280,7 @@
   </macro>
   <macro name="issued-sort">
     <choose>
-      <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
+      <if type="article article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
         <date variable="issued">
           <date-part name="year"/>
           <date-part name="month"/>
@@ -330,7 +330,7 @@
   </macro>
   <macro name="locators">
     <choose>
-      <if type="article-journal article-magazine" match="any">
+      <if type="article article-journal article-magazine" match="any">
         <group prefix=", " delimiter=", ">
           <group>
             <text variable="volume" font-style="italic"/>
