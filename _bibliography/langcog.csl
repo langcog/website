@@ -474,7 +474,7 @@
         <text macro="author"/>
         <text macro="issued-year"/>
       </group>
-      <group delimiter="" suffix=".">
+      <group prefix=" " delimiter="" suffix=".">
         <text macro="container"/>
         <text macro="locators"/>
         <text macro="annote"/>
