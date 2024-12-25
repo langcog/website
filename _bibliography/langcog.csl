@@ -331,7 +331,7 @@
   <macro name="locators">
     <choose>
       <if type="article-journal article-magazine" match="any">
-        <group prefix=", " delimiter=", " suffix=".">
+        <group prefix=", " delimiter=", ">
           <group>
             <text variable="volume" font-style="italic"/>
             <text variable="issue" prefix="(" suffix=")"/>
@@ -340,13 +340,13 @@
         </group>
       </if>
       <else-if type="article-newspaper">
-        <group delimiter=" " prefix=", " suffix=".">
+        <group delimiter=" " prefix=", ">
           <label variable="page" form="short"/>
           <text variable="page"/>
         </group>
       </else-if>
       <else-if type="book graphic motion_picture report song chapter paper-conference entry-encyclopedia entry-dictionary" match="any">
-        <group prefix=" (" suffix=")" delimiter=", " suffix=".">
+        <group prefix=" (" suffix=")" delimiter=", ">
           <text macro="edition"/>
           <group>
             <text term="volume" form="short" plural="true" text-case="capitalize-first" suffix=" "/>
@@ -473,6 +473,8 @@
         <!-- <text macro="title"/> --> <!-- this gets added in liquid tags in _layouts/bibtemplate.html so that we can include the website link on the title -->
         <text macro="author"/>
         <text macro="issued-year"/>
+      </group>
+      <group delimiter="" suffix=".">
         <text macro="container"/>
         <text macro="locators"/>
         <text macro="annote"/>
@@ -491,7 +493,7 @@
           <text macro="publisher"/>
         </group>
       </group> -->
-      <text macro="access" prefix=" "/>
+      <text macro="access" prefix=" " suffix="."/>
     </layout>
   </bibliography>
 </style>
