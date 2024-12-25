@@ -305,7 +305,7 @@
     <choose>
       <if variable="issued">
         <date variable="issued">
-          <date-part name="year" prefix="(" suffix=")."/>
+          <date-part name="year" prefix="(" suffix=")"/>
         </date>
         <text variable="year-suffix"/>
       </if>
@@ -469,7 +469,7 @@
       <key macro="title"/>
     </sort>
     <layout>
-      <group delimiter=" ">
+      <group delimiter=" " suffix=".">
         <!-- <text macro="title"/> --> <!-- this gets added in liquid tags in _layouts/bibtemplate.html so that we can include the website link on the title -->
         <text macro="author"/>
         <text macro="issued-year"/>
