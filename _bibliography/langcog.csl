@@ -331,7 +331,7 @@
   <macro name="locators">
     <choose>
       <if type="article-journal article-magazine" match="any">
-        <group prefix=", " delimiter=", ">
+        <group prefix=", " delimiter=", " suffix=".">
           <group>
             <text variable="volume" font-style="italic"/>
             <text variable="issue" prefix="(" suffix=")"/>
@@ -340,13 +340,13 @@
         </group>
       </if>
       <else-if type="article-newspaper">
-        <group delimiter=" " prefix=", ">
+        <group delimiter=" " prefix=", " suffix=".">
           <label variable="page" form="short"/>
           <text variable="page"/>
         </group>
       </else-if>
       <else-if type="book graphic motion_picture report song chapter paper-conference entry-encyclopedia entry-dictionary" match="any">
-        <group prefix=" (" suffix=")" delimiter=", ">
+        <group prefix=" (" suffix=")" delimiter=", " suffix=".">
           <text macro="edition"/>
           <group>
             <text term="volume" form="short" plural="true" text-case="capitalize-first" suffix=" "/>
@@ -391,7 +391,7 @@
   <macro name="container">
     <choose>
       <if type="post-weblog webpage" match="none">
-        <group delimiter=" " suffix=".">
+        <group delimiter=" ">
           <choose>
             <if type="chapter paper-conference entry-encyclopedia" match="any">
               <text term="in" text-case="capitalize-first" suffix=" "/>
