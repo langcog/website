@@ -45,6 +45,15 @@
         - >
          Mira completed her PhD in psychology at Princeton University. Her research examines how the 
          dynamics of emotion and language shape learning in infancy. 
+    - name: Fionnuala O'Reilly
+      img: fionnuala.png
+      baby: fionnuala_baby.png
+      webpage: 
+      bio:
+        - >
+         Fionnuala completed her PhD at the University of Oxford, where she studied the development of executive 
+         function in early childhood and interventions to support its growth. Her current research explores how 
+         cognitive skills emerge and interact during childhood to support learning.
 - role: Graduate Students
   people:
     - name: Rondeline Williams
@@ -125,9 +134,8 @@
       bio:
         - >
           Bobby is the current lab manager. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
-          from Stanford University where he was a research assistant in the Social Learning Lab. He is interested in our early ecology
-          as a source of variability in cognitive & social development and how context & cognition interact with the effects of early adversity. 
-          He is also interested in mechanisms for supporting resilience, early learning, and positive functioning across diverse contexts. 
+          from Stanford University where he was a honors student in the Social Learning Lab. He is interested in developmental variability,
+          characterizing the structure of our early learning environmnets, and how we adapt our learning strategies to different contexts. 
     - name: Grace Keene
       img: grace.png
       baby: grace_baby.png
@@ -204,6 +212,23 @@
          Victoria is a current Research Assistant. She is an undergraduate student pursuing a B.A. in Psychology. Victoria is interested in the physical and 
          psychological development of children. She is excited to learn more about how children’s interactions and relationships with others shape their 
          understanding of the world.
+    - name: Sadio Abdi
+      img: sadio.png
+      baby: sadio_baby.png
+      bio:
+        - >
+         Sadio is a current research assistant. Sadio is a senior at Stanford pursuing a B.A. in Psychology and a B.A.
+         in African and African American Studies. She is interested in how children acquire knowledge based on different
+         environments they're exposed to, and in learning more about how adversity effects children's overall development.
+    - name: Maya Martinez-Krams
+      img: maya.png
+      baby: maya_baby.png
+      bio:
+        - >
+         Maya is a current research assistant. She is an undergraduate student pursuing a B.A. in Psychology. Maya is 
+         currently working on a study investigating children's capacity to understand and learn from different kinds 
+         of pictures. She is excited to learn more about children's learning trajectories across different cultures 
+         as well as cognitive developmental psychology more broadly. 
 - role: Lab Alums
   people:
     - name: Bria Long

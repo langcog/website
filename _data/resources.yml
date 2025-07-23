@@ -56,5 +56,5 @@
 - item: babyview
   title: BabyView
   subtitle: Overview of a new camera designed to measure egocentric visual experience in early childhood
-  href: https://langcog.github.io/babyview/
+  href: https://babyview-project.github.io/babyview
   thumbnail: images/resources/babyview.png
