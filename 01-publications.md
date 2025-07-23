@@ -21,7 +21,7 @@ permalink: /publications
  {% bibliography --template bibtemplate --style _bibliography/langcog.csl --query @*[year=in press] %}
 <br>
 
-{% for year in (2006..2024) reversed %}
+{% for year in (2006..2025) reversed %}
 <h2>{{year}}</h2>
 {% bibliography --template bibtemplate --style _bibliography/langcog.csl --query @*[year={{year}}] %}
 <br>

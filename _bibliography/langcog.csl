@@ -305,7 +305,7 @@
     <choose>
       <if variable="issued">
         <date variable="issued">
-          <date-part name="year" prefix="(" suffix=")."/>
+          <date-part name="year" prefix="(" suffix=")"/>
         </date>
         <text variable="year-suffix"/>
       </if>
@@ -391,7 +391,7 @@
   <macro name="container">
     <choose>
       <if type="post-weblog webpage" match="none">
-        <group delimiter=" " suffix=".">
+        <group delimiter=" ">
           <choose>
             <if type="chapter paper-conference entry-encyclopedia" match="any">
               <text term="in" text-case="capitalize-first" suffix=" "/>
@@ -406,7 +406,7 @@
   </macro>
   <macro name="container-title">
     <choose>
-      <if type="article article-journal article-magazine article-newspaper" match="any">
+      <if type="article-journal article-magazine article-newspaper" match="any">
         <text variable="container-title" font-style="italic" text-case="title"/>
       </if>
       <else-if type="bill legal_case legislation" match="none">
@@ -469,11 +469,14 @@
       <key macro="title"/>
     </sort>
     <layout>
-      <group delimiter=" ">
+      <group delimiter=" " suffix=".">
         <!-- <text macro="title"/> --> <!-- this gets added in liquid tags in _layouts/bibtemplate.html so that we can include the website link on the title -->
         <text macro="author"/>
         <text macro="issued-year"/>
+      </group>
+      <group prefix=" " delimiter="" suffix=".">
         <text macro="container"/>
+        <text macro="locators"/>
         <text macro="annote"/>
       </group>
       <!-- <group suffix=".">
@@ -490,7 +493,7 @@
           <text macro="publisher"/>
         </group>
       </group> -->
-      <text macro="access" prefix=" "/>
+      <text macro="access" prefix=" " suffix="."/>
     </layout>
   </bibliography>
 </style>
