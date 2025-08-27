@@ -21,6 +21,8 @@ $image-width: 150px;
 
 .member img {
 	width: $image-width;
+	height: $image-width;        
+	object-fit: cover;
 	@media screen and (min-width: 558px) {
 		float: left;
 		padding-right: $spacing-unit;
