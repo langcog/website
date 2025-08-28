@@ -136,14 +136,6 @@
           Bobby is a Research Professional. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
           from Stanford University where he was a honors student in the Social Learning Lab. He is interested in developmental variability,
           characterizing the structure of our early learning environmnets, and how we adapt our learning strategies to different contexts. 
-    - name: Grace Keene
-      img: grace.png
-      baby: grace_baby.png
-      bio:
-        - >
-          Grace is a research coordinator. She received a BA and minor in Child Development from UC Berkeley where she was a research assistant in 
-          the Gopnik Lab. She is interested in cognitive and social development as well as social learning. Specifically, how we reason about rules, morality, 
-          and the self. 
     - name: Meesha Ryan
       img: meesha.jpeg
       baby: meesha_baby.jpg
@@ -259,6 +251,9 @@
          as well as cognitive developmental psychology more broadly. 
 - role: Lab Alums
   people:
+    - name: Grace Keene
+      was: Research Coordinator 
+      now: Graduate Student, UW Madison
     - name: Bria Long
       was: Postdoctoral Scholar
       now: Assistant Professor, UC San Diego
