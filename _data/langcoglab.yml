@@ -158,27 +158,28 @@
       baby: victor_baby.jpg
       bio:
         - > 
-        Victor is the lab manager. He graduated from Dartmouth College with a BA in Quantitative Social Science and a minor in Latin American, Latino, and Caribbean Studies. 
-        As an undergrad, he studied language, identity, and intergroup relations in Dr. Kiara Sanchez’s Social Identity in Dialogue Lab. 
-        His recent interests include leveraging computational models of decision-making to study cognitive development. 
+          Victor is the lab manager. He graduated from Dartmouth College with a BA in Quantitative Social Science and a minor in Latin American, Latino, and Caribbean Studies. 
+          As an undergrad, he studied language, identity, and intergroup relations in Dr. Kiara Sanchez’s Social Identity in Dialogue Lab. 
+          His recent interests include leveraging computational models of decision-making to study cognitive development. 
 
     - name: Sachin Allums
       img: sachin.jpg
       baby: sachin_baby.JPG
+      webpage: https://www.linkedin.com/in/sachinallums
       bio:
         - > 
-        Sachin is a research coordinator. He recently graduated with a B.S. in Symbolic Systems and a minor with honors in Education from Stanford 
-        University. He is interested in early language learning and exploration, neurodiversity and developmental variability, and the impact of technology
-        and the environment on creativity.
+          Sachin is a research coordinator. He recently graduated with a B.S. in Symbolic Systems and a minor with honors in Education from Stanford 
+          University. He is interested in early language learning and exploration, neurodiversity and developmental variability, and the impact of technology
+          and the environment on creativity.
 
     - name: Serena Lee 
       img: serena.jpeg
       baby: serena_baby.png
       bio:
         - > 
-        Serena is a research coordinator. She graduated from UCLA with a BA in Psychology and a minor in Education Studies. During undergrad, she was a 
-        research assistant in UCLA's Cognitive and Clinical Neuroscience Lab. Serena is interested in how social and cultural influences shape adolescent 
-        development, and how these factors can contribute to the onset of mental health difficulties.
+          Serena is a research coordinator. She graduated from UCLA with a BA in Psychology and a minor in Education Studies. During undergrad, she was a 
+          research assistant in UCLA's Cognitive and Clinical Neuroscience Lab. Serena is interested in how social and cultural influences shape adolescent 
+          development, and how these factors can contribute to the onset of mental health difficulties.
 
     - name: Heidi Baumgartner
       img: heidi.jpg
