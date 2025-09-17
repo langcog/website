@@ -215,13 +215,15 @@
          Ness is a current Research Assistant. She is an undergraduate student pursuing a B.A. in Psychology and a B.A. in Data Science 
          & Social Systems. She is currently engaged with a study investigating auditory noise on children’s language development. 
          She is excited by learning more about research in cognitive psychology and computational methods.
-    - name: Malia Perez
-      img: malia.png
-      baby: malia_baby.jpg
+    - name: Maya Martinez-Krams
+      img: maya.png
+      baby: maya_baby.png
       bio:
         - >
-         Malia is a current research assistant. Malia is a senior at Stanford pursuing a B.S. in Human Biology with a concentration in Psychological 
-         Development and Behavioral Neuroscience. She is interested in social impacts on language development, and more broadly neurodevelopmental disorders.
+         Maya is a current research assistant. She is an undergraduate student pursuing a B.A. in Psychology. Maya is 
+         currently working on a study investigating children's capacity to understand and learn from different kinds 
+         of pictures. She is excited to learn more about children's learning trajectories across different cultures 
+         as well as cognitive developmental psychology more broadly. 
 - role: Senior Research Assistants
   people:
     - name: Victoria Phan
@@ -240,15 +242,6 @@
          Sadio is a current research assistant. Sadio is a senior at Stanford pursuing a B.A. in Psychology and a B.A.
          in African and African American Studies. She is interested in how children acquire knowledge based on different
          environments they're exposed to, and in learning more about how adversity effects children's overall development.
-    - name: Maya Martinez-Krams
-      img: maya.png
-      baby: maya_baby.png
-      bio:
-        - >
-         Maya is a current research assistant. She is an undergraduate student pursuing a B.A. in Psychology. Maya is 
-         currently working on a study investigating children's capacity to understand and learn from different kinds 
-         of pictures. She is excited to learn more about children's learning trajectories across different cultures 
-         as well as cognitive developmental psychology more broadly. 
 - role: Lab Alums
   people:
     - name: Grace Keene
@@ -393,6 +386,9 @@
       now: Fulbright English Teaching Program
 - role: Former Honors Students
   people:
+    - name: Malia Perez
+      year: 2025
+      program: Human Biology
     - name: Khuyen Le
       year: 2021
       program: Symbolic Systems
