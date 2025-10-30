@@ -186,6 +186,7 @@
           Heidi was an undergrad at Stanford, did her graduate work at UC Davis, and was a postdoc at Brown University. 
           She's happy to be back at Stanford working as the Executive Director of ManyBabies, a global consortium of developmental
           psychology labs.
+          
     - name: Mika Braginsky
       img: mika.png
       baby: mika_baby.jpeg
@@ -195,6 +196,7 @@
           Mika is a software developer working on tools that enable data sharing and promote open science practices. Previously they 
           received their PhD from MIT, where they studied children's early language learning, specifically data-driven analyses of lexical 
           and morphological development.
+          
     - name: Amy Lightbody Kuhns
       img: amy.jpg
       baby: amy_baby.jpg
@@ -205,12 +207,13 @@
           all at UCLA. Amy has spent many years at the intersection of neuroscience, genetics, cognition, emotion, and behavior studying 
           developmental trajectories in children with conditions such as fragile X syndrome. More broadly she is interested in research 
           designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
-   - name: Theresa Cheng
-     img: theresa.jpg
-     baby: theresa_baby.jpg
-     webpage: https://bsky.app/profile/tcheng.bsky.social
-     bio:
-       - >
+          
+    - name: Theresa Cheng
+      img: theresa.jpg
+      baby: theresa_baby.jpg
+      webpage: https://bsky.app/profile/tcheng.bsky.social
+      bio:
+        - >
           Theresa is a research scientist and educator. She completed her undergraduate degree at CSU Los Angeles, PhD at the University of
           Oregon, and EdM and postdoctoral training at Harvard University. Her research explores how developmental timing and experience 
           shape social development, particularly during the transition to adolescence. She is also interested how scientific pedagogy can 
