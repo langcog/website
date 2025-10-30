@@ -205,6 +205,17 @@
           all at UCLA. Amy has spent many years at the intersection of neuroscience, genetics, cognition, emotion, and behavior studying 
           developmental trajectories in children with conditions such as fragile X syndrome. More broadly she is interested in research 
           designed to improve learning, educational, and social-emotional outcomes, particularly for vulnerable populations.
+ - name: Theresa Cheng
+      img: theresa.jpg
+      baby: theresa_baby.jpg
+      webpage: https://bsky.app/profile/tcheng.bsky.social
+      bio:
+        - >
+          Theresa is a research scientist and educator. She completed her undergraduate degree at CSU Los Angeles, PhD at the University of
+          Oregon, and EdM and postdoctoral training at Harvard University. Her research explores how developmental timing and experience 
+          shape social development, particularly during the transition to adolescence. She is also interested how scientific pedagogy can 
+          empower learners and foster social responsibility. 
+
 - role: Honors Students
   people:
     - name: Denis Ness Arikan
