@@ -54,35 +54,16 @@
          Fionnuala completed her PhD at the University of Oxford, where she studied the development of executive 
          function in early childhood and interventions to support its growth. Her current research explores how 
          cognitive skills emerge and interact during childhood to support learning.
-- role: Graduate Students
-  people:
-    - name: Rondeline Williams
-      img: rondeline.png
-      baby: rondeline_baby.png
-      bio:
-        - >
-          Rondeline received her B.A. in Psychology from Cornell University in 2017 before completing
-          an NIH-funded research project at The Ohio State University. She is interested in the impact 
-          of auditory noise on young children's processing efficiency and language development.
-    - name: Anjie Cao
-      img: anjie.jpg
-      baby: anjie_baby.jpeg
-      webpage: https://anjiecao.github.io/
-      social: https://twitter.com/anjie_cao
-      socialname: Twitter
-      bio:
-        - >
-          Anjie received her B.S. in Cognitive Science with an additional major in Philosophy from 
-          Carnegie Mellon University in 2020. She is interested in using experimental methods and 
-          computational modeling to understand human information-seeking behavior.
     - name: Veronica Boyce
       img: veronica.jpg
       baby: veronica_baby.jpg
       webpage: https://vboyce.github.io/
       bio:
         - >
-          Veronica received her BS in Brain and Cognitive Sciences from MIT in 2019 where she did work 
-          on incremental language processing. She is interested in adaptation and convention formation in conversation.
+         Veronica received her BS in Brain and Cognitive Sciences from MIT in 2019 where she did work 
+         on incremental language processing. She is interested in adaptation and convention formation in conversation.
+- role: Graduate Students
+  people:
     - name: Julio Martinez
       img: julio.jpg
       baby: julio_baby.jpg
@@ -151,19 +132,8 @@
       bio:
         - > 
           Victor is the lab manager. He graduated from Dartmouth College with a BA in Quantitative Social Science and a minor in Latin American, Latino, and Caribbean Studies. 
-          As an undergrad, he studied language, identity, and intergroup relations in Dr. Kiara Sanchez’s Social Identity in Dialogue Lab. 
-          His recent interests include leveraging computational models of decision-making to study cognitive development. 
-
-    - name: Sachin Allums
-      img: sachin.jpg
-      baby: sachin_baby.JPG
-      webpage: https://www.linkedin.com/in/sachinallums
-      bio:
-        - > 
-          Sachin is a research coordinator. He recently graduated with a B.S. in Symbolic Systems and a minor with honors in Education from Stanford 
-          University. He is interested in early language learning and exploration, neurodiversity and developmental variability, and the impact of technology
-          and the environment on creativity.
-
+          As an undergrad, he studied language, identity, and intergroup relations in Dr. Kiara Sanchez’s Social Identity in Dialogue Lab. He is interested in researching the 
+          cognitive processes underlying information processing and political decision-making, particularly those that contribute to belief polarization.
     - name: Serena Lee 
       img: serena.jpeg
       baby: serena_baby.png
@@ -221,14 +191,6 @@
 
 - role: Honors Students
   people:
-    - name: Denis Ness Arikan
-      img: ness.jpeg
-      baby: ness_baby.jpeg
-      bio:
-        - >
-         Ness is a current Research Assistant. She is an undergraduate student pursuing a B.A. in Psychology and a B.A. in Data Science 
-         & Social Systems. She is currently engaged with a study investigating auditory noise on children’s language development. 
-         She is excited by learning more about research in cognitive psychology and computational methods.
     - name: Maya Martinez-Krams
       img: maya.png
       baby: maya_baby.png
@@ -258,9 +220,18 @@
          environments they're exposed to, and in learning more about how adversity effects children's overall development.
 - role: Lab Alums
   people:
+    - name: Sachin Allums
+      was: Research Coordinator 
+      now: Fulbright Scholar, South Korea
     - name: Grace Keene
       was: Research Coordinator 
       now: Graduate Student, UW Madison
+    - name: Rondeline Williams
+      was: Graduate Student
+      now: Postdoctoral Scholar, University of South Florida
+    - name: Anjie Cao
+      was: Graduate Student
+      now: Consultant, Boston Consulting Group
     - name: Bria Long
       was: Postdoctoral Scholar
       now: Assistant Professor, UC San Diego
