@@ -1,24 +1,34 @@
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
   padding: 1rem 0;
   align-items: start;
 }
+
 .book-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
+  gap: 16px;
   text-align: left;
-  gap: 10px;
 }
+
 .book-card img {
-  width: 200px;
-  height: 280px;
+  width: 120px;
+  height: 180px;
   object-fit: cover;
   border-radius: 4px;
   border: 1px solid #ddd;
+  flex-shrink: 0;
 }
-.book-title { font-size: 14px; font-weight: 500; }
-.book-authors { font-size: 12px; color: gray; }
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.book-title { font-size: 15px; font-weight: 500; margin: 0; }
+.book-authors { font-size: 13px; color: gray; margin: 0; }
 .book-link { font-size: 13px; }
