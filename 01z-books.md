@@ -3,6 +3,11 @@ layout: default
 title: Books
 permalink: /books
 ---
+
+<div style = "text-align:center">
+<img src="{{site.url}}{{site.baseurl}}/images/Books.png" alt="Books">
+</div>
+
 <div class="books-grid">
   <div class="book-card">
     <img src="/images/Experimentology.jpg" alt="Experimentology: An Open Science Approach to Experimental Psychology Methods" />
