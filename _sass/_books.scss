@@ -1,22 +1,21 @@
 .books-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
   padding: 1rem 0;
-  align-items: start;
 }
 
 .book-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 16px;
+  gap: 20px;
   text-align: left;
 }
 
 .book-card img {
-  width: 120px;
-  height: 180px;
+  width: 140px;
+  height: 200px;
   object-fit: cover;
   border-radius: 4px;
   border: 1px solid #ddd;
@@ -26,9 +25,9 @@
 .book-info {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
-.book-title { font-size: 15px; font-weight: 500; margin: 0; }
+.book-title { font-size: 16px; font-weight: 500; margin: 0; }
 .book-authors { font-size: 13px; color: gray; margin: 0; }
 .book-link { font-size: 13px; }
