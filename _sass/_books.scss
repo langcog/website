@@ -1,8 +1,9 @@
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
   padding: 1rem 0;
+  align-items: start;
 }
 .book-card {
   display: flex;
@@ -12,8 +13,8 @@
   gap: 10px;
 }
 .book-card img {
-  width: 120px;
-  height: 160px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 4px;
   border: 1px solid #ddd;
