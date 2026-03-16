@@ -27,3 +27,14 @@ permalink: /books
     </div>
   </div>
 </div>
+
+<div class="book-card">
+    <img src="/images/OECS.jpeg" alt="Open Encyclopedia of Cognitive Science" />
+    <div class="book-info">
+      <p class="book-title">Open Encyclopedia of Cognitive Science</p>
+      <p class="book-authors">Editors-in-Chief: Michael C. Frank, Asifa Majid</p>
+      <p class="book-authors">Managing Editor: Heidi A. Baumgartner</p>
+      <a class="book-link" href="https://oecs.mit.edu/" target="_blank">View here →</a>
+    </div>
+  </div>
+</div>
