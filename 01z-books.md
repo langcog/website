@@ -26,10 +26,9 @@ permalink: /books
       <a class="book-link" href="https://langcog.github.io/wordbank-book/" target="_blank">View here →</a>
     </div>
   </div>
-</div>
 
 <div class="book-card">
-    <img src="/images/OECS.jpeg" alt="Open Encyclopedia of Cognitive Science" />
+    <img src="/images/OECS.jpeg" alt="Open Encyclopedia of Cognitive Science" style="object-fit: contain;" />
     <div class="book-info">
       <p class="book-title">Open Encyclopedia of Cognitive Science</p>
       <p class="book-authors">Editors-in-Chief: Michael C. Frank, Asifa Majid</p>
