@@ -200,15 +200,6 @@
          currently working on a study investigating children's capacity to understand and learn from different kinds 
          of pictures. She is excited to learn more about children's learning trajectories across different cultures 
          as well as cognitive developmental psychology more broadly. 
-    - name: Dena Kumsa
-      img: dena.JPG
-      baby: dena_baby.png
-      bio:
-        - >
-         Dena is a current Research Assistant. She is a senior at Stanford pursuing a B.S. in Human Biology and a minor in 
-         Art History. Dena is interested in how children's neuropsychological development and pathologies manifest across 
-         cultures, as well as the associated clinical and educational implications. She is excited to learn more about 
-         picture comprehension and how children interact with their visual environments.
 
 - role: Senior Research Assistants
   people:
@@ -236,7 +227,15 @@
          Yasmine is a current Research Assistant completing her B.A. in Psychology at UC Berkeley. She is interested in children’s language development and categorisation,
          and how factors like noise and emotion shape early word learning, as well as how children represent concepts through drawing and early writing. Yasmine is excited
          to explore how children learn from their environments and how they acquire language more broadly. 
- 
+    - name: Dena Kumsa
+      img: dena.JPG
+      baby: dena_baby.png
+      bio:
+        - >
+         Dena is a current Research Assistant. She is a senior at Stanford pursuing a B.S. in Human Biology and a minor in 
+         Art History. Dena is interested in how children's neuropsychological development and pathologies manifest across 
+         cultures, as well as the associated clinical and educational implications. She is excited to learn more about 
+         picture comprehension and how children interact with their visual environments.
 
 - role: Lab Alums
   people:
