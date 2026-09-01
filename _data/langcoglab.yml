@@ -54,14 +54,23 @@
          Fionnuala completed her PhD at the University of Oxford, where she studied the development of executive 
          function in early childhood and interventions to support its growth. Her current research explores how 
          cognitive skills emerge and interact during childhood to support learning.
-    - name: Veronica Boyce
-      img: veronica.jpg
-      baby: veronica_baby.jpg
-      webpage: https://vboyce.github.io/
+    - name: Joseph Coffey 
+      img: joe.jpg
+      baby: joe_baby.png
+      webpage: https://sites.google.com/g.harvard.edu/josephcoffey/home
       bio:
         - >
-         Veronica received her BS in Brain and Cognitive Sciences from MIT in 2019 where she did work 
-         on incremental language processing. She is interested in adaptation and convention formation in conversation.
+         Children around the world grow up with vastly different homes, families, and social networks, but nearly all of them 
+         will grow up to be healthy speakers of a language. What about children's minds makes this possible? And how can we 
+         best support them in their journeys? This is what Joseph has spent his career researching. He studies children in the 
+         first few years of their lives, when their capacity for learning language is at its greatest. He hopes not only to 
+         understand more about the uniquely human capacity for language, but also to provide children with the support they need 
+         to become happy, healthy speakers of their language. Joseph received his PhD in Psychology from Harvard University under 
+         Dr. Jesse Snedeker and Dr. Elizabeth Spelke. His dissertation addressed the influence of both heritable and environmental 
+         factors on language development in children adopted into the U.S. and children in Ghana. Before joining Stanford, he was 
+         a Fyssen postdoctoral fellow at the Laboratory for Cognitive Sciences and Psycholinguistics at the ENS Paris with Dr. Alejandrina 
+         Cristia. Currently, he is a postdoctoral researcher at Stanford University with LEVANTE and the Language and Cognition Lab.
+
 - role: Graduate Students
   people:
     - name: Julio Martinez
@@ -106,26 +115,6 @@
          controllability and reasoning of language and visual models, and investigating cognitive strategies to align human and machine learning.
 - role: Research Staff
   people:
-    - name: Bobby Sparks
-      img: bobby.jpg
-      baby: bobby_baby.png
-      webpage: https://rbzsparks.github.io
-      social: https://bsky.app/profile/rbzsparks.bsky.social
-      socialname: BlueSky
-      bio:
-        - >
-          Bobby is a Research Professional. He received his B.S. in Symbolic Systems with a focus in Cognitive Science 
-          from Stanford University where he was a honors student in the Social Learning Lab. He is interested in developmental variability,
-          characterizing the structure of our early learning environmnets, and how we adapt our learning strategies to different contexts. 
-    - name: Meesha Ryan
-      img: meesha.jpeg
-      baby: meesha_baby.jpg
-      bio:
-        - >
-          Meesha is a Research Coordinator. They graduated from Skidmore College with a BA in Psychology and a minor in English Literature. 
-          During their undergraduate studies, they worked in Dr. Jess Sullivan's Language and Cognition Lab and Dr. Corinne Moss-Racusin's 
-          Social and Intergroup Dynamics Lab. Meesha is interested in researching the intersections of children's emotional development, 
-          social development, and language acquisition (particularly acquisition of words pertaining to abstract concepts). 
     - name: Victor Moreno 
       img: victormoreno.jpg
       baby: victor_baby.jpg
@@ -142,7 +131,6 @@
           Serena is a research coordinator. She graduated from UCLA with a BA in Psychology and a minor in Education Studies. During undergrad, she was a 
           research assistant in UCLA's Cognitive and Clinical Neuroscience Lab. Serena is interested in how social and cultural influences shape adolescent 
           development, and how these factors can contribute to the onset of mental health difficulties.
-
     - name: Heidi Baumgartner
       img: heidi.jpg
       baby: heidi_baby.png
@@ -191,15 +179,7 @@
 
 - role: Honors Students
   people:
-    - name: Maya Martinez-Krams
-      img: maya.png
-      baby: maya_baby.png
-      bio:
-        - >
-         Maya is a current research assistant. She is an undergraduate student pursuing a B.A. in Psychology. Maya is 
-         currently working on a study investigating children's capacity to understand and learn from different kinds 
-         of pictures. She is excited to learn more about children's learning trajectories across different cultures 
-         as well as cognitive developmental psychology more broadly. 
+   
 
 - role: Senior Research Assistants
   people:
@@ -227,18 +207,18 @@
          Yasmine is a current Research Assistant completing her B.A. in Psychology at UC Berkeley. She is interested in children’s language development and categorisation,
          and how factors like noise and emotion shape early word learning, as well as how children represent concepts through drawing and early writing. Yasmine is excited
          to explore how children learn from their environments and how they acquire language more broadly. 
-    - name: Dena Kumsa
-      img: dena.JPG
-      baby: dena_baby.png
-      bio:
-        - >
-         Dena is a current Research Assistant. She is a senior at Stanford pursuing a B.S. in Human Biology and a minor in 
-         Art History. Dena is interested in how children's neuropsychological development and pathologies manifest across 
-         cultures, as well as the associated clinical and educational implications. She is excited to learn more about 
-         picture comprehension and how children interact with their visual environments.
 
 - role: Lab Alums
   people:
+    - name: Bobby Sparks
+      was: Lab Manager 
+      now: Graduate Student, Harvard University
+    - name: Meesha Ryan
+      was: Research Coordinator
+      now: Graduate Student, University of Oregon
+    - name: Veronica Boyce
+      was: Graduate Student
+      now: Postdoctoral Scholar, MIT
     - name: Sachin Allums
       was: Research Coordinator 
       now: Fulbright Scholar, South Korea
@@ -390,6 +370,9 @@
       now: Fulbright English Teaching Program
 - role: Former Honors Students
   people:
+    - name: Maya Martinez-Krams
+      year: 2026
+      program: Psychology
     - name: Malia Perez
       year: 2025
       program: Human Biology
@@ -452,6 +435,9 @@
       program: Symbolic Systems
 - role: Summer Interns
   people:
+    - name: Dena Kumsa
+      year: 2025
+      program: Stanford University Human Biology
     - name: Sadio Abdi
       year: 2024
       program: Stanford University Psychology
