@@ -60,11 +60,20 @@
       webpage: https://sites.google.com/g.harvard.edu/josephcoffey/home
       bio:
         - >
-         Josephy finished his PhD in Psychology at Harvard University. His research focuses on the role of children’s 
+         Joseph finished his PhD in Psychology at Harvard University. His research focuses on the role of children’s 
          home environments in their language development. What do children need to learn language in a healthy timeframe?
          What are the cognitive mechanisms that link children’s speech input to their later outcomes? And how can we 
          more effectively measure linguistic development within different cultural contexts?
-
+    - name: Vlad Chituc 
+      img: vlad.jpg
+      baby: vlad_baby.png 
+      webpage: https://vladchituc.com/
+      bio: 
+       - >
+        Vlad Chituc completed his PhD in psychology from Yale University, where his doctoral work was awarded the Cognitive 
+        Science Society’s Glushko Dissertation Prize in 2025. Researchers often ask people to rate their subjective experience — on
+        a scale from one to ten, how happy are you? how wrong would that be? how intensely are you feeling that emotion? His work draws
+        from sensory psychophysics, psychometric modeling, and information theory to understand what those numbers actually mean.
 
 - role: Graduate Students
   people:
