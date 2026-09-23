@@ -15,18 +15,6 @@
           especially as it relates to children's early language development.
 - role: Postdocs
   people:
-    - name: Kat Adams Shannon
-      img: kat.jpg
-      baby: kat_baby.jpg
-      webpage: https://www.katadams.com/
-      bio:
-        - >
-         Kat completed her PhD in developmental psychology at NYU in the Steinhardt School of Culture, 
-         Education, and Human Development. She broadly studies how young children adapt their attention
-         and learning behaviors to best match different early environments, with particular focus on 
-         understanding variability and strengths in contexts of early adversity. A key aim of her 
-         research is to create and collaborate on innovative uses of technology and statistical 
-         methods to support education and developmental science.
     - name: Rebecca Zhu
       img: rebecca.png
       baby: rebecca_baby.png
@@ -117,24 +105,19 @@
          University and an undergrad at the University of Waterloo. He wishes to advance AI with multidisciplinary knowledge, mainly by 
          enhancing machine understanding and generation of human language and vision. This includes exploring methods to improve the
          controllability and reasoning of language and visual models, and investigating cognitive strategies to align human and machine learning.
+    - name: Arjun Chandra
+      img: arjun.png
+      baby: arjun_baby.png
+      webpage: https://arjunchandra2.github.io
+      bio:
+        - > 
+          Arjun is a PhD student in the Computer Science department. He previously earned a bachelor’s degree in Physics and Computer Science from Boston 
+          University. He is interested in building more data-efficient AI systems that can serve as computational models of human language acquisition and 
+          visual perception.
+
+        
 - role: Research Staff
   people:
-    - name: Victor Moreno 
-      img: victormoreno.jpg
-      baby: victor_baby.jpg
-      bio:
-        - > 
-          Victor is the lab manager. He graduated from Dartmouth College with a BA in Quantitative Social Science and a minor in Latin American, Latino, and Caribbean Studies. 
-          As an undergrad, he studied language, identity, and intergroup relations in Dr. Kiara Sanchez’s Social Identity in Dialogue Lab. He is interested in researching the 
-          cognitive processes underlying information processing and political decision-making, particularly those that contribute to belief polarization.
-    - name: Serena Lee 
-      img: serena.jpeg
-      baby: serena_baby.png
-      bio:
-        - > 
-          Serena is a research coordinator. She graduated from UCLA with a BA in Psychology and a minor in Education Studies. During undergrad, she was a 
-          research assistant in UCLA's Cognitive and Clinical Neuroscience Lab. Serena is interested in how social and cultural influences shape adolescent 
-          development, and how these factors can contribute to the onset of mental health difficulties.
     - name: Heidi Baumgartner
       img: heidi.jpg
       baby: heidi_baby.png
@@ -180,6 +163,47 @@
           Oregon, and EdM and postdoctoral training at Harvard University. Her research explores how developmental timing and experience 
           shape social development, particularly during the transition to adolescence. She is also interested how scientific pedagogy can 
           empower learners and foster social responsibility. 
+    - name: Victor Moreno 
+      img: victormoreno.jpg
+      baby: victor_baby.jpg
+      webpage: https://vic-moreno.github.io/
+      bio:
+        - > 
+          Victor is the lab manager. He graduated from Dartmouth College with a BA in Quantitative Social Science and a minor in Latin American, Latino, and Caribbean Studies. 
+          As an undergrad, he studied language, identity, and intergroup relations in Dr. Kiara Sanchez’s Social Identity in Dialogue Lab. He is interested in researching the 
+          cognitive processes underlying information processing and political decision-making, particularly those that contribute to belief polarization.
+    - name: Serena Lee 
+      img:  serena.jpeg
+      baby: serena_baby.png
+      bio:
+        - > 
+          Serena is a research coordinator. She graduated from UCLA with a BA in Psychology and a minor in Education Studies. During undergrad, she was a 
+          research assistant in UCLA's Cognitive and Clinical Neuroscience Lab. Serena is interested in how social and cultural influences shape adolescent 
+          development, and how these factors can contribute to the onset of mental health difficulties.
+    - name: Emma Montilla 
+      img: emma.jpeg
+      baby: emma_baby.png
+      webpage: emmonti.github.io
+      bio:
+       - >
+         Emma received a BA in Applied Linguistics from UCLA in 2025 and was a Fulbright English Teaching Assistant in Taiwan from 2025 to 2026. She is broadly 
+         interested in cochlear implants and language development in children with hearing loss.
+    - name: Cherrie Chang
+      img: cherrie.JPG
+      baby: cherrie_baby.JPG
+      bio:
+        - >
+          Cherrie Chang is a current predoctoral fellow. She completed a B.A. in Cognitive Science and Computer Science with a minor in Analytic Philosophy at Vassar College.
+          Before coming to the lab, she has been helping develop software tools for online behavioral experiments. She is currently interested in how we understand the visual world.
+    - name: Alyssa Erthum
+      img: alyssa.png
+      baby: alyssa_baby.png
+      bio: 
+        - >
+          Alyssa is a research coordinator. She graduated from Yale with a BS in Psychology and a certificate in Education Studies. In her undergrad, 
+          she was a research assistant at the Leonard Learning Lab and the Education Collaboratory at Yale. Alyssa is interested in how different 
+          contextual environments shape child development in meaningful ways, alongside interventions to support beneficial developmental outcomes.
+    
 
 - role: Honors Students
   people:
@@ -214,6 +238,9 @@
 
 - role: Lab Alums
   people:
+    - name: Kat Adams Shannon
+      was: Postdoctoral Scholar
+      now: Research Scientist, Stanford University School of Medicine
     - name: Bobby Sparks
       was: Lab Manager 
       now: Graduate Student, Harvard University
