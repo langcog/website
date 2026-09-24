@@ -114,6 +114,16 @@
           Arjun is a PhD student in the Computer Science department. He previously earned a bachelor’s degree in Physics and Computer Science from Boston 
           University. He is interested in building more data-efficient AI systems that can serve as computational models of human language acquisition and 
           visual perception.
+    - name: Tarun Sepuri 
+      img: tarun.png
+      baby: tarun_baby.png
+      webpage: www.tarunsepuri.com
+      bio:
+        - > 
+          Tarun is a PhD student in the Psychology department. They received a BS in Computer Science and Cognitive Science from Case Western Reserve University 
+          and previously worked as a lab manager at UC San Diego. Tarun is interested in understanding and modeling how language interacts with social reasoning, 
+          especially during language acquisition.
+
 
         
 - role: Research Staff
