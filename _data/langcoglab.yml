@@ -117,12 +117,12 @@
     - name: Tarun Sepuri 
       img: tarun.jpg
       baby: tarun_baby.png
-      webpage: www.tarunsepuri.com
+      webpage: https://tarunsepuri.com/
       bio:
         - > 
-          Tarun is a PhD student in the Psychology department. They received a BS in Computer Science and Cognitive Science from Case Western Reserve University 
-          and previously worked as a lab manager at UC San Diego. Tarun is interested in understanding and modeling how language interacts with social reasoning, 
-          especially during language acquisition.
+         Tarun is a PhD student in the Psychology department. He received a BS in Computer Science and Cognitive Science from Case Western Reserve University and 
+         previously worked as a lab manager at UC San Diego. Tarun is interested in understanding and modeling how language interacts with social reasoning, especially during language acquisition.
+
 
 
         
