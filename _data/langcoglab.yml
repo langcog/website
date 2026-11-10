@@ -217,7 +217,24 @@
 
 - role: Honors Students
   people:
-   
+    - name: Lillian Mack
+      img: lillian.jpg
+      baby: lillian_baby.jpg
+      bio:
+        - >
+         Lillian is a current Honors Research Assistant and undergraduate student pursuing a B.A. in Psychology and an M.S. in Biology. Her research interests 
+         center on how resources and identity shape children’s understanding of the world around them. She is interested in how children perceive differences, 
+         make sense of their experiences, and develop an understanding of their own identities.
+
+    - name: Andrea Marie-Rose
+      img: andrea.png
+      baby: andrea_baby.jpeg
+      bio:
+        - >
+         Andrea is a psychology honors student mentored by graduate student Samah Abdelrahim. She is broadly interested in social learning as well as in 
+         how children acquire word meanings and learn to map words onto the objects around them. Her honors project examines the perceptual and linguistic 
+         cues that shape this process. She loves working with children through her research and is excited to learn more about how they come to understand the world. 
+
 
 - role: Senior Research Assistants
   people:
